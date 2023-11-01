@@ -1,1 +1,1 @@
-## Experiment name
+## Protein purification by affinity chromatography
