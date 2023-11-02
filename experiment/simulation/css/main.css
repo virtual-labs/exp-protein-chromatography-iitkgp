@@ -1,1 +1,126 @@
-/* You CSS goes in here */
+/* Lab name: Experimental Biochemistry
+Exp name: Protein purification by affinity chromatography
+File name: main.css
+Developer: Prakriti Dhang */
+
+
+.card {
+    margin-bottom: 5px;
+}
+
+.img-container {
+    
+    display: inline-block;
+    position: relative;
+}
+
+
+#emptycolumn{
+    position: relative;
+    width: 18%;
+    top: 1%;
+    left: 15%;
+}
+
+#nibeads{
+    position: absolute;
+    width: 8%;
+    top: -12%; /*-12- 60*/
+    left: 21%;
+}
+
+#packedcolumn{
+    position: absolute;
+    width: 18%;
+    top:1%;
+    left: 15.5%;
+    display: none;
+ }
+
+ #chemicalgrp{
+    position: absolute;
+    width: 40%;
+    top: 5%;
+    left: 60%;
+ }
+
+
+ #celllysate{
+    position: relative;
+    width: 20%;
+    top: 5%;
+    left: 5%;
+ }
+
+ #diffpro{
+    position: absolute;
+    width: 20%;
+    top: 5%;
+    left: 25%;
+ }
+
+ #proint{
+    position: absolute;
+    width: 40%;
+    top: 5%;
+    left: 50%;
+ }
+
+ #wpc{
+    position: relative;
+    width: 30%;
+    top: 5%;
+    left: 5%;
+ }
+
+ #buffer{
+    position: absolute;
+    width: 15%;
+    top: 5%;
+    left: 50%;
+ }
+ #unpro{
+    position: absolute;
+    width: 10%;
+    top: 50%;
+    left: 16%;
+ }
+ 
+
+#proni{
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 50%; 
+}
+
+#protube1{
+    position: relative;
+    width: 30%;
+    top: 1%;
+    left: 5%;
+}
+
+#protube2{
+    position: absolute;
+    width: 31%;
+    top: 4%;
+    left: 5.1%;
+}
+
+#graph{
+    position: relative;
+    width: 50%;
+    top: 5%;
+    left: 5%;
+   
+}
+
+#optgel{
+    position: relative;
+    width: 40%;
+    top: 5%;
+    left: 5%;
+   
+}
+
