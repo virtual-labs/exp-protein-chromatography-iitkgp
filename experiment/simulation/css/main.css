@@ -17,7 +17,7 @@ Developer: Prakriti Dhang */
 
 #emptycolumn{
     position: relative;
-    width: 18%;
+    width: 20%;
     top: 1%;
     left: 15%;
 }
@@ -68,7 +68,7 @@ Developer: Prakriti Dhang */
 
  #wpc{
     position: relative;
-    width: 30%;
+    width: 20%;
     top: 5%;
     left: 5%;
  }
@@ -99,6 +99,23 @@ Developer: Prakriti Dhang */
     width: 30%;
     top: 1%;
     left: 5%;
+    display:block;
+}
+
+#pro1{
+    position: absolute;
+    width: 33%;
+    top: 62.9%;
+    left: 2.5%;
+    display:none;
+}
+
+#pro2{
+    position: absolute;
+    width: 35%;
+    top: 61%;
+    left: 2.5%;
+    display:none;
 }
 
 #protube2{
@@ -106,6 +123,65 @@ Developer: Prakriti Dhang */
     width: 31%;
     top: 4%;
     left: 5.1%;
+    display:none;
+}
+
+#protube4{
+    position: absolute;
+    width: 30%;
+    top: 5%;
+    left: 5.4%;
+    display:none;
+}
+
+#pro4{
+    position: absolute;
+    width: 32%;
+    top: 62.7%;
+    left: 2.8%;
+    display:none;
+}
+
+
+#protube8{
+    position: absolute;
+    width: 30%;
+    top: 3%;
+    left: 5.4%;
+    display:none;
+}
+
+#pro8{
+    position: absolute;
+    width: 32%;
+    top: 61.5%;
+    left: 2.3%;
+    display:none;
+}
+
+
+#protube100{
+    position: absolute;
+    width: 30%;
+    top: 6%;
+    left: 5.4%;
+    display:none;
+}
+
+#pro100{
+    position: absolute;
+    width: 36%;
+    top: 64.5%;
+    left: 1.8%;
+    display:none;
+}
+
+#prointelu{
+    position: absolute;
+    width: 6%;
+    top: 53%;  /*50- 80 */
+    left: 20%;
+    display:none;
 }
 
 #bufferb{
