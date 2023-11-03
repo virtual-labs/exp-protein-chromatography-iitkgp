@@ -20,6 +20,7 @@ Developer: Prakriti Dhang */
     width: 20%;
     top: 1%;
     left: 15%;
+   display: none;
 }
 
 #nibeads{
@@ -39,9 +40,9 @@ Developer: Prakriti Dhang */
 
  #chemicalgrp{
     position: absolute;
-    width: 40%;
-    top: 5%;
-    left: 60%;
+    width: 45%;
+    top: 1%;
+    left: 58%;
  }
 
 
@@ -196,6 +197,7 @@ Developer: Prakriti Dhang */
     width: 50%;
     top: 5%;
     left: 5%;
+    display: none;
    
 }
 
@@ -205,6 +207,7 @@ Developer: Prakriti Dhang */
     width: 40%;
     top: 5%;
     left: 5%;
+    display: none;
    
 }
 
