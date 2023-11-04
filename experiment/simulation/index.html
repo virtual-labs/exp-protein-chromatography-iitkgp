@@ -209,8 +209,8 @@ Developer: Prakriti Dhang -->
 								<td>
 									<button id="step7" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " onclick="dataacq()" > Data
-										Acquisition</button>
+										style="cursor: pointer; "  > Data
+										Acquisition</button> <!--onclick="dataacq()"-->
 
 								</td>
 							</tr>
@@ -338,10 +338,10 @@ Developer: Prakriti Dhang -->
 			<div class="col-md-6">
 				<div class="card card-body border border-1">
 					<p>Step 7</p>
-
-					<div class="img-container">
+					<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+					<!--div class="img-container">
 						<img src="./images/graph_profile.png" id="graph" class="img-fluid" alt="outputgel">
-					</div>
+					</div-->
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -384,6 +384,7 @@ Developer: Prakriti Dhang -->
 		<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
 		<script src="./js/main.js"></script>
+		<script src="./js/plotdatagraph.js"></script>
 </body>
 
 </html>

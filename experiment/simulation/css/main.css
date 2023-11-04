@@ -20,7 +20,7 @@ Developer: Prakriti Dhang */
     width: 20%;
     top: 1%;
     left: 15%;
-   display: none;
+  display: none;
 }
 
 #nibeads{
@@ -28,6 +28,7 @@ Developer: Prakriti Dhang */
     width: 8%;
     top: -12%; /*-12- 60*/
     left: 21%;
+    display: none;
 }
 
 #packedcolumn{
@@ -43,6 +44,7 @@ Developer: Prakriti Dhang */
     width: 45%;
     top: 1%;
     left: 58%;
+    display: none;
  }
 
 
