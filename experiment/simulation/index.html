@@ -33,7 +33,7 @@ Developer: Prakriti Dhang -->
 						<li></li>
 						<li></li>
 							<li>Click on the "Data Acquisition" button to plot the sample graph</li>
-							<li>Click on the "Analyzed using SDS-PAGE gel" button and on "Show" button to view the gel.
+							<li>Click on the "SDS-PAGE Analysis" button and on "Show" button to view the gel.
 							</li>
 						</ol>
 						<b>Note:</b> To repeat the experiment, click on the "Re-Do the Experiment" button.
@@ -105,26 +105,28 @@ Developer: Prakriti Dhang -->
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
 										style="cursor: pointer; " onclick="prointerest()" > Protein of
 										Interest</button>
+
+										<div class="form-check form-check-inline">
+											<input class="custom-check-input" type="checkbox" value="" id="Check31"
+												onclick="sampleload()"  />
+											<label class="custom-check-label" for="Check31">
+												Sample loading
+											</label>
+										</div>
 								</td>
 							</tr>
 							<tr>
-								<td class="fs-6">Step 3</td>
+								<td class="fs-6">Step 3: Washing</td>
 								<td>
-									<div class="form-check form-check-inline">
-										<input class="custom-check-input" type="checkbox" value="" id="Check31"
-											onclick="sampleload()"  />
-										<label class="custom-check-label" for="Check31">
-											Sample loading
-										</label>
-									</div>
+									
 
-									<div class="form-check form-check-inline">
+									<!--div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check32"
 											onclick="washing()"  />
 										<label class="custom-check-label" for="Check32">
 											Washing
 										</label>
-									</div>
+									</div-->
 
 
 									<div class="form-check form-check-inline">
@@ -135,11 +137,6 @@ Developer: Prakriti Dhang -->
 										</label>
 									</div>
 
-								</td>
-							</tr>
-							<tr>
-								<td class="fs-6">Step 4</td>
-								<td>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check41"
 											onclick="removeunpro()"  />
@@ -147,12 +144,6 @@ Developer: Prakriti Dhang -->
 											Removal of unbound proteins
 										</label>
 									</div>
-
-								</td>
-							</tr>
-							<tr>
-								<td class="fs-6">Step 5</td>
-								<td>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check51"
 											onclick="bindingpro()"  />
@@ -163,9 +154,10 @@ Developer: Prakriti Dhang -->
 
 								</td>
 							</tr>
-
+							
+							
 							<tr>
-								<td class="fs-6">Step 6: Elution</td>
+								<td class="fs-6">Step 4: Elution</td>
 								<td>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check61"
@@ -205,7 +197,7 @@ Developer: Prakriti Dhang -->
 								</td>
 							</tr>
 							<tr>
-								<td class="fs-6">Step 7</td>
+								<td class="fs-6">Step 5</td>
 								<td>
 									<button id="step7" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
@@ -215,7 +207,7 @@ Developer: Prakriti Dhang -->
 								</td>
 							</tr>
 							<tr>
-								<td class="fs-6">Step 8</td>
+								<td class="fs-6">Step 6</td>
 								<td>
 									<button id="step8" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
@@ -252,7 +244,9 @@ Developer: Prakriti Dhang -->
 					</div><img src="./images/cell_lysate.png" id="celllysate" class="img-fluid" alt="celllysate">
 					<img src="./images/different_proteins.png" id="diffpro" class="img-fluid" alt="diifprotein">
 					<img src="./images/protein_of_interest.png" id="proint" class="img-fluid" alt="proint">
-
+					<img src="./images/packed_blue_column.png" id="pbluecol" class="img-fluid" alt="packed packed_blue_column">
+					<img src="./images/unbound_proteins.png" id="unprostp2" class="img-fluid">
+					<img src="./images/with_protein_column.png" id="withpcol" class="img-fluid">
 				</div>
 			</div>
 		</div>
@@ -267,6 +261,7 @@ Developer: Prakriti Dhang -->
 						<img src="./images/buffer.png" id="buffer" class="img-fluid">
 						<img src="./images/unbound_proteins.png" id="unpro" class="img-fluid">
 						<img src="./images/protein_ni.png" id="proni" class="img-fluid">
+						<img src="./images/tube_with_unwanter_proteins.png" id="tbunpro" class="img-fluid">
 
 
 
@@ -277,33 +272,7 @@ Developer: Prakriti Dhang -->
 			<div class="col-md-6">
 				<div class="card card-body border border-1">
 					<p>Step 4</p>
-
-
-				</div>
-
-
-			</div>
-
-		</div>
-
-
-		<div class="row">
-
-			<div class="col-md-6">
-
-
-
-
-				<div class="card card-body border border-1">
-					<p>Step 5</p>
-
-
-				</div>
-			</div>
-
-			<div class="col-md-6">
-				<div class="card card-body border border-1">
-					<p>Step 6</p>
+					
 					<div class="img-container">
 						<img src="./images/10_pro_tube.png" id="protube1" class="img-fluid" alt="protube10">
 						<img src="./images/10_PRO.png" id="pro1" class="img-fluid" alt="pro10">
@@ -328,33 +297,42 @@ Developer: Prakriti Dhang -->
 
 
 				</div>
-			</div>
 
+
+			</div>
 
 		</div>
 
 
-		<div class="row ">
+		<div class="row">
+
 			<div class="col-md-6">
+
+
+
+
 				<div class="card card-body border border-1">
-					<p>Step 7</p>
+					<p>Step 5</p>
+
 					<div id="chartContainer" style="height: 400px; width: 100%;"></div>
-					<!--div class="img-container">
-						<img src="./images/graph_profile.png" id="graph" class="img-fluid" alt="outputgel">
-					</div-->
 				</div>
 			</div>
+
 			<div class="col-md-6">
 				<div class="card card-body border border-1">
-					<p>Step 8</p>
+					<p>Step 6</p>
 					<div class="img-container">
 						<img src="./images/SDS_PAGE.png" id="optgel" class="img-fluid" alt="outputgel">
 					</div>
+
 				</div>
 			</div>
 
+
 		</div>
 
+
+		
 		<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">

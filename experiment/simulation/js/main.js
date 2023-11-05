@@ -19,8 +19,33 @@ function showcolumn(){
     document.getElementById("emptycolumn").style.display="block";
 }
 
+var imgobjntadots = null;
 function showeq(){
     document.getElementById("nibeads").style.display="block";
+    var currenttop = -12;
+   
+    var imageb = document.getElementById("nibeads");
+    clearInterval(imgobjntadots);
+    imgobjntadots = setInterval(frame, 30);
+  
+    function frame() {
+      if (currenttop == 60) {
+        document.getElementById("packedcolumn").style.display = "block";
+        document.getElementById("actionid").innerHTML="Equilibration.";
+        document.getElementById("packedcolumn").setAttribute("onclick","showchemicalequation()");
+        clearInterval(imgobjntadots);
+      }
+      else {
+        currenttop++;
+        imageb.style.top = currenttop + '%';
+  
+      }
+    }
+}
+
+
+function showchemicalequation(){
+  document.getElementById("chemicalgrp").style.display = "block";
 }
 
 /** Step 2 */
@@ -33,12 +58,13 @@ function prointerest(){
 }
 
 
-/** Step 3*/
+
 
 function sampleload(){
 
 }
 
+/** Step 3*/
 function washing(){
 
 }
@@ -47,17 +73,17 @@ function buffera(){
 
 }
 
-/** Step 4 */
+
 function removeunpro(){
 
 }
 
-/** Step 5 */
+
 function bindingpro(){
 
 }
 
- /*  Step 6 Elution starts*/ 
+ /*  Step 4 Elution starts*/ 
 
  function elu10(){
 
@@ -82,7 +108,7 @@ function bindingpro(){
 
 
 
-/** Step8 */
+/** Step6 */
 
 function sdspage(){
 document.getElementById("stepgel").style.display="block";

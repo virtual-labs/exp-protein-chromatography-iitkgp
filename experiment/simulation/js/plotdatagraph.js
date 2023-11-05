@@ -3,7 +3,7 @@ Exp name: Protein purification by affinity chromatography
 File name: main.js
 Developer: Prakriti Dhang */
 
-/**  Step 7 Data Acquistion*/
+/**  Step 5 Data Acquistion*/
 document.getElementById('step7').addEventListener('click', function () {
 	document.getElementById("actionid").innerHTML="";
 	document.getElementById("step8").disabled = false;
