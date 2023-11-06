@@ -1,8 +1,7 @@
 <!-- Lab name: Experimental Biochemistry
-Exp name: Protein purification by size exclusion chromatography (SEC)
+Exp name: Protein purification by affinity chromatography
 File name: index.html
-Developer: Prakriti Dhang-->
-
+Developer: Prakriti Dhang -->
 
 <!DOCTYPE html>
 <html>
@@ -19,7 +18,6 @@ Developer: Prakriti Dhang-->
 </head>
 
 <body>
-	<!-- Your code goes here-->
 	<div class="container-fluid p-2">
 		<div class="row">
 			<div class="col-md-6">
@@ -29,17 +27,18 @@ Developer: Prakriti Dhang-->
 						<ol>
 							<li>Click on "Start the Experiment" button.
 							</li>
-							<li>Click on "Protein sample" button and on the falcon image.</li>
-							<li> Next click on the checkbox "Equilibration" and click "Add buffer" button. Set the time to 120 mins and 
-								 flow rate to 1 ml/min .
-								 Now click on the buffer bottle to pass the buffer through the column.
+							<li> Click on "Ni-Nta Column" checkbox. Next click on "Equilibration" checkbox. To see the chemical group click on the blue beads.</li>
+							<li>Now, click on "Cell lysate/ Protein solution" checkbox and on the falcon. Click "Protein of Interest"
+								button to see the chemical group. Then click on "Sample Loading" button to load the proteins in the tube.</li>
+							<li>First, click on "Buffer A" checkbox to display the buffer bottle. Then click on Buffer A bottle to load it in the column and uncheck the "Buffer A" checkbox to place it back.
+								 Accordingly click on the "Removal of unbound proteins" boxes to remove unbounded proteins.  
+								To see the chemical group, click on "Binding of proteins of interest with Ni-NTA beads" checkbox. </li>
+							<li>Click on "Buffer B" checkboxes to display the buffer bottle. Click on the Buffer B bottle to load buffer in the column and uncheck the "Buffer B" checkbox to place it back. Next, click on the
+								checkboxes from "10%" to "100%" accordingly. </li>
+
+							<li>Click on the "Data Acquisition" button to plot the sample graph</li>
+							<li>Click on the "SDS-PAGE Analysis" button and on "Show" button to view the gel.
 							</li>
-							<li>Click on the checkbox "Protein mixture" and click "Inject protein sample" button. Now,
-								click on the injection's push button to inject the protiens through the column.</li>
-							<li>Now click on the "Elution" button. This will start separating the protein samples. The
-								protein samples will be stored in the tubes.</li>
-							<li>Click on the "Data Acquisition" button to plot the Absorbance Vs Volume graph</li>
-							<li>Click on the "SDS-PAGE analysis" button and on "Show" button to view the gel.</li>
 						</ol>
 						<b>Note:</b> To repeat the experiment, click on the "Re-Do the Experiment" button.
 					</div>
@@ -49,9 +48,8 @@ Developer: Prakriti Dhang-->
 					<div class="card-header fs-5 fw-bold">Action</div>
 					<div class="card-body">
 						<p class="fs-5" id="actionid"></p>
-						<button id="stepgel" type="button"
-										class="btn btn-success border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; float:right; display: none;" onclick="showgel()">Show</button>
+						<button id="stepgel" type="button" class="btn btn-success border border-1  rounded-3 fs-6 m-1"
+							style="cursor: pointer; float:right; display: none;" onclick="showgel()">Show</button>
 					</div>
 				</div>
 			</div>
@@ -78,63 +76,154 @@ Developer: Prakriti Dhang-->
 							<tr>
 								<td class="fs-6">Step 1</td>
 								<td>
-									<button id="step1" type="button"
-										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer;  " onclick="proteinsample()" disabled>Protein
-										sample</button>
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check1"
+											onclick="showcolumn()" disabled/>
+										<label class="custom-check-label" for="Check1">
+											Ni-Nta Column
+										</label>
+									</div>
+
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check2"
+											onclick="showeq()" disabled/>
+										<label class="custom-check-label" for="Check2">
+											Equilibration
+										</label>
+									</div>
 								</td>
 							</tr>
 							<tr>
 								<td class="fs-6">Step 2</td>
 								<td>
+
+
 									<div class="form-check form-check-inline">
-										<input class="custom-check-input" type="checkbox" value="" id="Check1"
-											onclick="showbuffer()" disabled />
-										<label class="custom-check-label" for="Check1">
-											Equilibration
-										</label>
-									</div>
-									<button id="step21" type="button"
-										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " onclick="injectbuffer()" disabled>Add
-										Buffer</button>
-									<br>
-									<div class="form-check form-check-inline">
-										<input class="custom-check-input" type="checkbox" value="" id="Check2"
-											onclick="showprotein()" disabled />
-										<label class="custom-check-label" for="Check2">
-											Protein mixture
+										<input class="custom-check-input" type="checkbox" value="" id="Check21"
+											onclick="cellysate()" disabled/>
+										<label class="custom-check-label" for="Check21">
+											Cell lysate/Protein solution
 										</label>
 									</div>
 									<button id="step22" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " onclick="injectps()" disabled>Inject Protein
-										sample</button>
+										style="cursor: pointer; " onclick="prointerest()" disabled> Protein of
+										Interest</button>
+
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check22"
+											onclick="sampleload()" disabled/>
+										<label class="custom-check-label" for="Check22">
+											Sample Loading
+										</label>
+									</div>
 								</td>
 							</tr>
 							<tr>
 								<td class="fs-6">Step 3</td>
 								<td>
-									<button id="step3" type="button"
-										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer;  " onclick="elution()" disabled>Elution start</button>
+
+
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check32"
+											onclick="washing()" disabled/>
+										<label class="custom-check-label" for="Check32">
+											Washing
+										</label>
+									</div>
+
+
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check33"
+											onclick="buffera()" disabled/>
+										<label class="custom-check-label" for="Check33">
+											Buffer A
+										</label>
+									</div>
+
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check34"
+											onclick="removeunpro()" disabled/>
+										<label class="custom-check-label" for="Check41">
+											Removal of unbound proteins
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check35"
+											onclick="bindingpro()" disabled/>
+										<label class="custom-check-label" for="Check51">
+											Binding of proteins of interest with Ni-NTA beads
+										</label>
+									</div>
+
 								</td>
 							</tr>
+
+
 							<tr>
 								<td class="fs-6">Step 4</td>
 								<td>
-									<button id="step4" type="button"
-										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " disabled >Data
-										acquisition</button> <!--onclick="dataplot()"-->
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Checkbb"
+											onclick="bufferb()" disabled />
+										<label class="custom-check-label" for="Checkbb">
+											Buffer B
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check61"
+											onclick="elu10()" disabled />
+										<label class="custom-check-label" for="Check61">
+											10%
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check62"
+											onclick="elu20()" disabled/>
+										<label class="custom-check-label" for="Check62">
+											20%
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check63"
+											onclick="elu40()" disabled/>
+										<label class="custom-check-label" for="Check63">
+											40%
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check64"
+											onclick="elu80()" disabled/>
+										<label class="custom-check-label" for="Check64">
+											80%
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check65"
+											onclick="elu100()" disabled/>
+										<label class="custom-check-label" for="Check65">
+											100%
+										</label>
+									</div>
 								</td>
 							</tr>
 							<tr>
 								<td class="fs-6">Step 5</td>
 								<td>
-									<button id="step5" type="button"
+									<button id="step7" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " onclick="analyzed()" disabled>SDS-PAGE analysis</button> <!--onclick="dataplot()"-->
+										style="cursor: pointer; " disabled> Data
+										Acquisition</button> <!--onclick="dataacq()"-->
+
+								</td>
+							</tr>
+							<tr>
+								<td class="fs-6">Step 6</td>
+								<td>
+									<button id="step8" type="button"
+										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
+										style="cursor: pointer; " onclick="sdspage()" disabled> SDS-PAGE Analysis</button>
+
 								</td>
 							</tr>
 						</table>
@@ -146,95 +235,115 @@ Developer: Prakriti Dhang-->
 
 		<div class="row ">
 			<div class="col-md-6">
-				<div class="card card-body border border-0">
-
+				<div class="card card-body border border-1">
+					<p>Step 1</p>
 					<div class="img-container">
-						<img src="./images/falcontube.png" id="falcon" class="img-fluid" alt="falcon">
-						<img src="./images/falconzoom.png" id="falconzoom" class="img-fluid" alt="faclonzoom">
-						<img src="./images/falconzoom.png" id="falconzoom1" class="img-fluid" alt="faclonzoom">
-						
-					</div>
-				</div>
-
-				<div class="card card-body border border-0">
-
-					<div class="img-container">
-
-						<img src="./images/secmachine.png" id="machine" class="img-fluid" alt="machine">
-
-						
-
-						<input type="text"  class="form-control form-control-inline" id="inpttime" placeholder="Time (min)"> 
-						<input type="number" class="form-control form-control-inline" min="0" max="10" id="inptfrate" placeholder="Flow rate (ml/min)"> 
-
-						<!--img src="./images/inject.png" id="inject" class="img-fluid" alt="inject">
-						<img src="./images/injection.png" id="injection" class="img-fluid" alt="injectionpushbtn"-->
-						<img src="./images/buffer.png" id="buffer" class="img-fluid">
-						<img src="./images/inject.png" id="injectps" class="img-fluid" alt="inject">
-						<img src="./images/injection.png" id="injectionps" class="img-fluid" alt="injectionpushbtn">
-
-						<img src="./images/tube.png" id="tube" class="img-fluid" alt="tube">
-						<canvas width="10px" height="20px" id="canvascolumn" style="border: 0px solid black; "></canvas>
-						<canvas width="10px" height="20px" id="canvascolumnpa"
-							style="border: 0px solid black; "></canvas>
-						<canvas width="10px" height="20px" id="canvascolumnpb"
-							style="border: 0px solid black; "></canvas>
-						<canvas width="10px" height="20px" id="canvascolumnpc"
-							style="border: 0px solid black; "></canvas>
-						<canvas width="10px" height="20px" id="canvascolumnpd"
-							style="border: 0px solid black; "></canvas>
-
-						<img src="./images/bufferdrop.png" id="bdrop" class="img-fluid" alt="bfdrop">
-						<img src="./images/bufferdrop.png" id="padrop" class="img-fluid" alt="psadrop">
-						<img src="./images/bufferdrop.png" id="pbdrop" class="img-fluid" alt="psbdrop">
-						<img src="./images/bufferdrop.png" id="pcdrop" class="img-fluid" alt="pscdrop">
-						<img src="./images/bufferdrop.png" id="pddrop" class="img-fluid" alt="psbdrop">
-						<canvas width="10px" height="20px" id="canvastube" style="border: 0px solid black;"></canvas>
-						<canvas width="10px" height="20px" id="canvastubep1" style="border: 0px solid black;"></canvas>
-						<canvas width="10px" height="20px" id="canvastubep2" style="border: 0px solid black;"></canvas>
-						<canvas width="10px" height="20px" id="canvastubep3" style="border: 0px solid black;"></canvas>
-						<canvas width="10px" height="20px" id="canvastubep4" style="border: 0px solid black;"></canvas>
+						<img src="./images/emptycolumn.png" id="emptycolumn" class="img-fluid">
+						<img src="./images/nibeads.png" id="nibeads" class="img-fluid">
+						<img src="./images/packed_column.png" id="packedcolumn" class="img-fluid">
+						<img src="./images/chemical_group.png" id="chemicalgrp" class="img-fluid">
 
 					</div>
 				</div>
 			</div>
 
 			<div class="col-md-6">
-			
-
 				<div class="card card-body border border-1">
-					<div id="chartContainer" style="height: 500px; width: 100%;"></div>
+					<p>Step 2</p>
+					<div class="img-container">
 
+					</div><img src="./images/cell_lysate.png" id="celllysate" class="img-fluid" alt="celllysate">
+					<img src="./images/different_proteins.png" id="diffpro" class="img-fluid" alt="diifprotein">
+					<img src="./images/protein_of_interest.png" id="proint" class="img-fluid" alt="proint">
+					<img src="./images/packed_blue_column.png" id="pbluecol" class="img-fluid"
+						alt="packed packed_blue_column">
+					<img src="./images/unbound_proteins.png" id="unprostp2" class="img-fluid">
+					<img src="./images/with_protein_column.png" id="withpcol" class="img-fluid">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body border border-1">
+					<p>Step 3</p>
+					<div class="img-container">
+
+						<img src="./images/tubecapturepro.png" id="wpc" class="img-fluid" alt="wpc">
+
+						<img src="./images/buffer.png" id="buffera" class="img-fluid">
+						<img src="./images/unbound_proteins.png" id="unpro" class="img-fluid">
+						<img src="./images/protein_ni.png" id="proni" class="img-fluid">
+						<img src="./images/tube_with_unwanter_proteins.png" id="tbunpro" class="img-fluid">
+
+
+
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body border border-1">
+					<p>Step 4</p>
+
+					<div class="img-container">
+						<img src="./images/10_pro_tube.png" id="protube1" class="img-fluid" alt="protube10">
+						<img src="./images/10_PRO.png" id="pro1" class="img-fluid" alt="pro10">
+						<img src="./images/20_pro_tube.png" id="protube2" class="img-fluid" alt="protube20">
+						<img src="./images/20_PRO.png" id="pro2" class="img-fluid" alt="pro20">
+
+						<img src="./images/40_pro_tube.png" id="protube4" class="img-fluid" alt="protube40">
+						<img src="./images/40_PRO.png" id="pro4" class="img-fluid" alt="pro40">
+
+						<img src="./images/80_pro_tube.png" id="protube8" class="img-fluid" alt="protube80">
+						<img src="./images/80_PRO.png" id="pro8" class="img-fluid" alt="pro80">
+
+						<img src="./images/100_pro_tube.png" id="protube100" class="img-fluid" alt="protube100">
+						<img src="./images/100_PRO.png" id="pro100" class="img-fluid" alt="pro100">
+
+						<img src="./images/PROTEIN_OF_INTEREST_ELUTED.png" id="prointelu" class="img-fluid">
+
+
+						<img src="./images/BUFFER_B.png" id="bufferb" class="img-fluid">
+
+					</div>
 
 
 				</div>
-				<!--div class="card card-body border border-0">
+
+
+			</div>
+
+		</div>
+
+
+		<div class="row">
+
+			<div class="col-md-6">
+
+
+
+
+				<div class="card card-body border border-1">
+					<p>Step 5</p>
+
+					<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body border border-1">
+					<p>Step 6</p>
 					<div class="img-container">
-						<img src="./images/bufferopt.png" id="bopt" class="img-fluid" alt="bfdrop">
-						<img src="./images/proaopt.png" id="paopt" class="img-fluid" alt="psadropopt">
-						<img src="./images/probopt.png" id="pbopt" class="img-fluid" alt="psbdropopt">
-						<img src="./images/procopt.png" id="pcopt" class="img-fluid" alt="pscdropopt">
-						<img src="./images/prodopt.png" id="pdopt" class="img-fluid" alt="psbdropopt">
+						<img src="./images/SDS_PAGE.png" id="optgel" class="img-fluid" alt="outputgel">
 					</div>
-				</div-->
+
+				</div>
 			</div>
 
 
 		</div>
 
 
-		<div class="row ">
-			<div class="col-md-3"></div>
-			<div class="col-md-6">
-				<div class="card card-body border border-0">
-				<div class="img-container">
-					<img src="./images/ladder.png" id="ladder" class="img-fluid" alt="ladder">
-				<img src="./images/outputgel.png" id="optgel" class="img-fluid" alt="outputgel">
-			</div>
-			</div>
-				</div>
-				<div class="col-md-3"></div>
-				</div>
 
 		<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
@@ -256,6 +365,7 @@ Developer: Prakriti Dhang-->
 				</div>
 			</div>
 		</div>
+
 		<!-- Add JS at the bottom of HTML file -->
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -264,7 +374,7 @@ Developer: Prakriti Dhang-->
 		<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
 		<script src="./js/main.js"></script>
-		<script src="./js/plotgraph.js"></script>
+		<script src="./js/plotdatagraph.js"></script>
 </body>
 
 </html>
