@@ -1,1 +1,1 @@
-## Protein purification by size exclusion chromatography (SEC)
+## Protein purification by affinity chromatography
