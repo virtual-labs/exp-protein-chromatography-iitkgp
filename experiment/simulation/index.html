@@ -27,11 +27,15 @@ Developer: Prakriti Dhang -->
 						<ol>
 							<li>Click on "Start the Experiment" button.
 							</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+							<li> Click on "Ni-Nta Column" checkbox. Next click on "Equilibration" checkbox. To see the chemical group click on the blue beads.</li>
+							<li>Now, click on "Cell lysate/ Protein solution" checkbox and on the falcon. Click "Protein of Interest"
+								button to see the chemical group. Then click on "Sample Loading" button to load the proteins in the tube.</li>
+							<li>First, click on "Buffer A" checkbox to display the buffer bottle. Then click on Buffer A bottle to load it in the column and uncheck the "Buffer A" checkbox to place it back.
+								 Accordingly click on the "Removal of unbound proteins" boxes to remove unbounded proteins.  
+								To see the chemical group, click on "Binding of proteins of interest with Ni-NTA beads" checkbox. </li>
+							<li>Click on "Buffer B" checkboxes to display the buffer bottle. Click on the Buffer B bottle to load buffer in the column and uncheck the "Buffer B" checkbox to place it back. Next, click on the
+								checkboxes from "10%" to "100%" accordingly. </li>
+
 							<li>Click on the "Data Acquisition" button to plot the sample graph</li>
 							<li>Click on the "SDS-PAGE Analysis" button and on "Show" button to view the gel.
 							</li>
@@ -74,7 +78,7 @@ Developer: Prakriti Dhang -->
 								<td>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check1"
-											onclick="showcolumn()"  />
+											onclick="showcolumn()" disabled/>
 										<label class="custom-check-label" for="Check1">
 											Ni-Nta Column
 										</label>
@@ -82,7 +86,7 @@ Developer: Prakriti Dhang -->
 
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check2"
-											onclick="showeq()"  />
+											onclick="showeq()" disabled/>
 										<label class="custom-check-label" for="Check2">
 											Equilibration
 										</label>
@@ -96,57 +100,57 @@ Developer: Prakriti Dhang -->
 
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check21"
-											onclick="cellysate()"  />
+											onclick="cellysate()" disabled/>
 										<label class="custom-check-label" for="Check21">
 											Cell lysate/Protein solution
 										</label>
 									</div>
 									<button id="step22" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " onclick="prointerest()" > Protein of
+										style="cursor: pointer; " onclick="prointerest()" disabled> Protein of
 										Interest</button>
 
-										<div class="form-check form-check-inline">
-											<input class="custom-check-input" type="checkbox" value="" id="Check31"
-												onclick="sampleload()"  />
-											<label class="custom-check-label" for="Check31">
-												Sample loading
-											</label>
-										</div>
+									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Check22"
+											onclick="sampleload()" disabled/>
+										<label class="custom-check-label" for="Check22">
+											Sample Loading
+										</label>
+									</div>
 								</td>
 							</tr>
 							<tr>
-								<td class="fs-6">Step 3: Washing</td>
+								<td class="fs-6">Step 3</td>
 								<td>
-									
 
-									<!--div class="form-check form-check-inline">
+
+									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check32"
-											onclick="washing()"  />
+											onclick="washing()" disabled/>
 										<label class="custom-check-label" for="Check32">
 											Washing
 										</label>
-									</div-->
+									</div>
 
 
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check33"
-											onclick="buffera()"  />
+											onclick="buffera()" disabled/>
 										<label class="custom-check-label" for="Check33">
 											Buffer A
 										</label>
 									</div>
 
 									<div class="form-check form-check-inline">
-										<input class="custom-check-input" type="checkbox" value="" id="Check41"
-											onclick="removeunpro()"  />
+										<input class="custom-check-input" type="checkbox" value="" id="Check34"
+											onclick="removeunpro()" disabled/>
 										<label class="custom-check-label" for="Check41">
 											Removal of unbound proteins
 										</label>
 									</div>
 									<div class="form-check form-check-inline">
-										<input class="custom-check-input" type="checkbox" value="" id="Check51"
-											onclick="bindingpro()"  />
+										<input class="custom-check-input" type="checkbox" value="" id="Check35"
+											onclick="bindingpro()" disabled/>
 										<label class="custom-check-label" for="Check51">
 											Binding of proteins of interest with Ni-NTA beads
 										</label>
@@ -154,42 +158,49 @@ Developer: Prakriti Dhang -->
 
 								</td>
 							</tr>
-							
-							
+
+
 							<tr>
-								<td class="fs-6">Step 4: Elution</td>
+								<td class="fs-6">Step 4</td>
 								<td>
 									<div class="form-check form-check-inline">
+										<input class="custom-check-input" type="checkbox" value="" id="Checkbb"
+											onclick="bufferb()" disabled />
+										<label class="custom-check-label" for="Checkbb">
+											Buffer B
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check61"
-											onclick="elu10()"  />
+											onclick="elu10()" disabled />
 										<label class="custom-check-label" for="Check61">
 											10%
 										</label>
 									</div>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check62"
-											onclick="elu20()"  />
+											onclick="elu20()" disabled/>
 										<label class="custom-check-label" for="Check62">
 											20%
 										</label>
 									</div>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check63"
-											onclick="elu30()"  />
+											onclick="elu40()" disabled/>
 										<label class="custom-check-label" for="Check63">
 											40%
 										</label>
 									</div>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check64"
-											onclick="elu40()"  />
+											onclick="elu80()" disabled/>
 										<label class="custom-check-label" for="Check64">
 											80%
 										</label>
 									</div>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check65"
-											onclick="elu100()"  />
+											onclick="elu100()" disabled/>
 										<label class="custom-check-label" for="Check65">
 											100%
 										</label>
@@ -201,7 +212,7 @@ Developer: Prakriti Dhang -->
 								<td>
 									<button id="step7" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; "  > Data
+										style="cursor: pointer; " disabled> Data
 										Acquisition</button> <!--onclick="dataacq()"-->
 
 								</td>
@@ -211,7 +222,7 @@ Developer: Prakriti Dhang -->
 								<td>
 									<button id="step8" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " onclick="sdspage()" > SDS-PAGE Analysis</button>
+										style="cursor: pointer; " onclick="sdspage()" disabled> SDS-PAGE Analysis</button>
 
 								</td>
 							</tr>
@@ -244,7 +255,8 @@ Developer: Prakriti Dhang -->
 					</div><img src="./images/cell_lysate.png" id="celllysate" class="img-fluid" alt="celllysate">
 					<img src="./images/different_proteins.png" id="diffpro" class="img-fluid" alt="diifprotein">
 					<img src="./images/protein_of_interest.png" id="proint" class="img-fluid" alt="proint">
-					<img src="./images/packed_blue_column.png" id="pbluecol" class="img-fluid" alt="packed packed_blue_column">
+					<img src="./images/packed_blue_column.png" id="pbluecol" class="img-fluid"
+						alt="packed packed_blue_column">
 					<img src="./images/unbound_proteins.png" id="unprostp2" class="img-fluid">
 					<img src="./images/with_protein_column.png" id="withpcol" class="img-fluid">
 				</div>
@@ -258,7 +270,7 @@ Developer: Prakriti Dhang -->
 
 						<img src="./images/tubecapturepro.png" id="wpc" class="img-fluid" alt="wpc">
 
-						<img src="./images/buffer.png" id="buffer" class="img-fluid">
+						<img src="./images/buffer.png" id="buffera" class="img-fluid">
 						<img src="./images/unbound_proteins.png" id="unpro" class="img-fluid">
 						<img src="./images/protein_ni.png" id="proni" class="img-fluid">
 						<img src="./images/tube_with_unwanter_proteins.png" id="tbunpro" class="img-fluid">
@@ -272,7 +284,7 @@ Developer: Prakriti Dhang -->
 			<div class="col-md-6">
 				<div class="card card-body border border-1">
 					<p>Step 4</p>
-					
+
 					<div class="img-container">
 						<img src="./images/10_pro_tube.png" id="protube1" class="img-fluid" alt="protube10">
 						<img src="./images/10_PRO.png" id="pro1" class="img-fluid" alt="pro10">
@@ -288,12 +300,12 @@ Developer: Prakriti Dhang -->
 						<img src="./images/100_pro_tube.png" id="protube100" class="img-fluid" alt="protube100">
 						<img src="./images/100_PRO.png" id="pro100" class="img-fluid" alt="pro100">
 
-						<img src="./images/PROTEIN_OF_INTEREST_ELUTED.png" id="prointelu" class="img-fluid" >
+						<img src="./images/PROTEIN_OF_INTEREST_ELUTED.png" id="prointelu" class="img-fluid">
 
 
 						<img src="./images/BUFFER_B.png" id="bufferb" class="img-fluid">
 
-						</div>
+					</div>
 
 
 				</div>
@@ -332,7 +344,7 @@ Developer: Prakriti Dhang -->
 		</div>
 
 
-		
+
 		<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">

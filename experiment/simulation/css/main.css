@@ -37,6 +37,7 @@ Developer: Prakriti Dhang */
     top:1%;
     left: 15.8%;
     display: none;
+    cursor: pointer;
  }
 
  #chemicalgrp{
@@ -53,6 +54,8 @@ Developer: Prakriti Dhang */
     width: 20%;
     top: 5%;
     left: 5%;
+    cursor: pointer;
+    display: none;
  }
 
  #diffpro{
@@ -60,6 +63,8 @@ Developer: Prakriti Dhang */
     width: 20%;
     top: 30%;
     left: 20%;
+    cursor: pointer;
+    display: none;
  }
 
  #proint{
@@ -67,18 +72,20 @@ Developer: Prakriti Dhang */
     width: 30%;
     top: 5%;
     left: 37%;
+    display: none;
  }
  #pbluecol{
     position: absolute;
     width: 25%;
     top: 15%;
     left: 65%;
+    display: none;
  }
 
 #unprostp2{
     position: absolute;
     width: 10%;
-    top: -18%;
+    top: -18%; /*-180-50*/
     left: 73%;
     display: none;  
 }
@@ -96,19 +103,23 @@ Developer: Prakriti Dhang */
     width: 27%;
     top: 5%;
     left: 5%;
+    display: none;
  }
 
- #buffer{
+ #buffera{
     position: absolute;
-    width: 13%;
+    width: 10%;
     top: 5%;
-    left: 35%;
+    left: 40%;
+    cursor: pointer;
+    display: none;
  }
  #unpro{
     position: absolute;
     width: 9%;
     top: 51.2%;
     left: 15%;
+    display: none;
  }
  
 #tbunpro{
@@ -116,6 +127,7 @@ Developer: Prakriti Dhang */
     width: 34%;
     top:65.2%;
     left: 1.8%;
+    display: none;
 }
 
 
@@ -124,6 +136,7 @@ Developer: Prakriti Dhang */
     width: 55%;
     top: 20%;
     left: 45%; 
+    display: none
 }
 
 
@@ -133,13 +146,13 @@ Developer: Prakriti Dhang */
     width: 25%;
     top: 1%;
     left: 5%;
-    display:block;
+    display:none;
 }
 
 #pro1{
     position: absolute;
     width: 28.2%;
-    top: 62.9%;
+    top: 62.7%;
     left: 2.7%;
     display:none;
 }
@@ -171,9 +184,9 @@ Developer: Prakriti Dhang */
 
 #pro4{
     position: absolute;
-    width: 28%;
-    top: 62.7%;
-    left: 2.8%;
+    width: 27.3%;
+    top: 62.8%;
+    left: 3.5%;
     display:none;
 }
 
@@ -199,31 +212,33 @@ Developer: Prakriti Dhang */
     position: absolute;
     width: 25%;
     top: 6%;
-    left: 5.4%;
+    left: 5.3%;
     display:none;
 }
 
 #pro100{
     position: absolute;
     width: 32%;
-    top: 63.9%;
-    left: 1.6%;
+    top: 63.8%;
+    left: 1.4%;
     display:none;
 }
 
 #prointelu{
     position: absolute;
-    width: 6%;
-    top: 53%;  /*50- 80 */
+    width: 5%;
+    top: 53%;  /*53- 80 */
     left: 20%;
     display:none;
 }
 
 #bufferb{
     position: absolute;
-    width: 12%;
+    width: 9%;
     top: 5%;
     left: 50%;
+    cursor: pointer;
+    display: none;
  }
 
 #graph{
