@@ -1,1 +1,262 @@
-/* You CSS goes in here */
+/* Lab name: Experimental Biochemistry
+Exp name: Protein purification by affinity chromatography
+File name: main.css
+Developer: Prakriti Dhang */
+
+
+.card {
+    margin-bottom: 5px;
+}
+
+.img-container {
+    
+    display: inline-block;
+    position: relative;
+}
+
+
+#emptycolumn{
+    position: relative;
+    width: 20%;
+    top: 1%;
+    left: 15%;
+  display: none;
+}
+
+#nibeads{
+    position: absolute;
+    width: 8%;
+    top: 60%; /*-12- 60*/
+    left: 22.2%;
+    display: none;
+}
+
+#packedcolumn{
+    position: absolute;
+    width: 20%;
+    top:1%;
+    left: 15.8%;
+    display: none;
+    cursor: pointer;
+ }
+
+ #chemicalgrp{
+    position: absolute;
+    width: 45%;
+    top: 1%;
+    left: 58%;
+    display: none;
+ }
+
+
+ #celllysate{
+    position: relative;
+    width: 20%;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    display: none;
+ }
+
+ #diffpro{
+    position: absolute;
+    width: 20%;
+    top: 30%;
+    left: 20%;
+    cursor: pointer;
+    display: none;
+ }
+
+ #proint{
+    position: absolute;
+    width: 30%;
+    top: 5%;
+    left: 37%;
+    display: none;
+ }
+ #pbluecol{
+    position: absolute;
+    width: 25%;
+    top: 15%;
+    left: 65%;
+    display: none;
+ }
+
+#unprostp2{
+    position: absolute;
+    width: 10%;
+    top: -18%; /*-180-50*/
+    left: 73%;
+    display: none;  
+}
+#withpcol{
+    position: absolute;
+    width: 20%;
+    top: 13%;
+    left: 68.2%;
+    display: none;
+ }
+ /* step3 */
+
+ #wpc{
+    position: relative;
+    width: 27%;
+    top: 5%;
+    left: 5%;
+    display: none;
+ }
+
+ #buffera{
+    position: absolute;
+    width: 10%;
+    top: 5%;
+    left: 40%;
+    cursor: pointer;
+    display: none;
+ }
+ #unpro{
+    position: absolute;
+    width: 9%;
+    top: 51.2%;
+    left: 15%;
+    display: none;
+ }
+ 
+#tbunpro{
+    position: absolute;
+    width: 34%;
+    top:65.2%;
+    left: 1.8%;
+    display: none;
+}
+
+
+#proni{
+    position: absolute;
+    width: 55%;
+    top: 20%;
+    left: 45%; 
+    display: none
+}
+
+
+/*Elution */
+#protube1{
+    position: relative;
+    width: 25%;
+    top: 1%;
+    left: 5%;
+    display:none;
+}
+
+#pro1{
+    position: absolute;
+    width: 28.2%;
+    top: 62.7%;
+    left: 2.7%;
+    display:none;
+}
+#protube2{
+    position: absolute;
+    width: 26%;
+    top: 4%;
+    left: 5.1%;
+    display:none;
+}
+
+
+#pro2{
+    position: absolute;
+    width: 30%;
+    top: 61%;
+    left: 2.5%;
+    display:none;
+}
+
+
+#protube4{
+    position: absolute;
+    width: 25.2%;
+    top: 5%;
+    left: 5.4%;
+    display:none;
+}
+
+#pro4{
+    position: absolute;
+    width: 27.3%;
+    top: 62.8%;
+    left: 3.5%;
+    display:none;
+}
+
+
+#protube8{
+    position: absolute;
+    width: 25%;
+    top: 3%;
+    left: 5.2%;
+    display:none;
+}
+
+#pro8{
+    position: absolute;
+    width: 28%;
+    top: 61%;
+    left: 2.3%;
+    display:none;
+}
+
+
+#protube100{
+    position: absolute;
+    width: 25%;
+    top: 6%;
+    left: 5.3%;
+    display:none;
+}
+
+#pro100{
+    position: absolute;
+    width: 32%;
+    top: 63.8%;
+    left: 1.4%;
+    display:none;
+}
+
+#prointelu{
+    position: absolute;
+    width: 5%;
+    top: 53%;  /*53- 80 */
+    left: 20%;
+    display:none;
+}
+
+#bufferb{
+    position: absolute;
+    width: 9%;
+    top: 5%;
+    left: 50%;
+    cursor: pointer;
+    display: none;
+ }
+
+#graph{
+    position: relative;
+    width: 50%;
+    top: 5%;
+    left: 5%;
+    display: none;
+   
+}
+
+
+#optgel{
+    position: relative;
+    width: 40%;
+    top: 5%;
+    left: 5%;
+    display: none;
+   
+}
+
