@@ -1,16 +1,15 @@
 /* Lab name: Experimental Biochemistry
-Exp name: Protein purification by size exclusion chromatography (SEC)
+Exp name: Protein purification by affinity chromatography
 File name: main.js
 Developer: Prakriti Dhang */
 
-
-
-
-document.getElementById('step4').addEventListener('click', function () {
-	document.getElementById("actionid").innerHTML="The absorbance (A280) of the sample is analyzed using a detector.";
-	document.getElementById("step5").disabled = false;
+/**  Step 5 Data Acquistion*/
+document.getElementById('step7').addEventListener('click', function () {
+	window.scrollBy(0, 2500);
+	document.getElementById("actionid").innerHTML="";
+	document.getElementById("step8").disabled = false;
 	// Specify the URL of your Excel file
-	const excelUrl = './plotdata/proteindata.xlsx';
+	const excelUrl = './plotdata/ni-nta_peak.xlsx';
 
 	const xhr = new XMLHttpRequest();
 	xhr.open('GET', excelUrl, true);
@@ -50,23 +49,21 @@ function plotData(dataPoints) {
 	const chart = new CanvasJS.Chart("chartContainer", {
 		animationEnabled: true,
 		title: {
-			text: "Absorbance Vs Volume"
+			text: "Absorbance Vs Time"
 		},
 		axisY: {
-			title: "Absorbance (mAU)",
-			minimum: -2,
-			maximum: 15,
+			title: "Absorbance",
+			
 			gridThickness: 0
 
 		},
 		axisX: {
-			title: "Volume in mL",
-			minimum: 1,
-			maximum: 120,
+			title: "Time (min)",
+			
 
 		},
 
-		data: [{
+		/*data: [{
             type: "spline",
             dataPoints: dataPoints // <-- Correct placement
 
@@ -81,94 +78,18 @@ function plotData(dataPoints) {
                 { x: 96.015, y: 14.134, indexLabel: "D", indexLabelFontColor: "orangered" }
             ]
         }]
-    });
-		/*data: [{
+    });*/
+		data: [{
 			type: "spline",
-			//lineColor:"orange",
+			
 			dataPoints: dataPoints
-			[{ x: 62.277, y: 11.246, indexLabel: "A", indexLabelFontColor: "orangered" },
-			{ x: 73.879, y: 11.525, indexLabel: "B", indexLabelFontColor: "orangered" },
-			{ x: 87.214, y: 13.799, indexLabel: "C", indexLabelFontColor: "orangered" },
-			{ x: 95.749, y: 13.927, indexLabel: "D", indexLabelFontColor: "orangered" }
-		]
+			
 		}
 	]
 	});
-*/
+
 	chart.render();
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*function dataplot(){
-    
-
-var chart = new CanvasJS.Chart("chartContainer", {
-	animationEnabled: true,  
-	title:{
-		text: "Protein Graph view"
-	},
-	axisY: {
-		title: "A (mAU)",
-	  
-		valueFormatString: "#0,,.",
-		//suffix: "mn",
-		//stripLines: [{
-		//	value: 3366500,
-		//	label: "Average"
-		//}]
-	},
-	axisX: {
-		title: "Volume (ml)",
-		//valueFormatString: "#0,,.",
-	},
-	data: [{
-		yValueFormatString: "",
-		xValueFormatString: "",
-		type: "spline",
-		dataPoints: [
-			{x: 2, y: 2506000},
-			{x: 3, y: 2506000},
-			{x: 4, y: 2506000},
-			{x:5, y: 2506000},
-			{x: 6, y: 2506000},
-			{x: 7, y: 2506000},
-			{x: 8, y: 1872000},
-			{x: 9, y: 2140000},
-			{x: 10, y: 7289000},
-			{x: 11, y: 4830000},
-			{x: 12, y: 2009000},
-			{x: 13, y: 2840000},
-			{x: 14, y: 2396000},
-			{x: 15, y: 1613000},
-			{x: 16, y: 2821000},
-			{x:17, y: 2000000}	
-		]
-	}]
-});
-chart.render();
-
-}*/
