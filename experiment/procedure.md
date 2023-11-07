@@ -32,7 +32,7 @@ Using the native buffers, columns and cell lysate, follow the procedure below to
 3.	Settle the resin by gravity or low-speed centrifugation (800 × g), and carefully aspirate the supernatant in case of a manually prepared column. Save supernatant at 4°C for SDS-PAGE analysis.
 4.	Load the remaining cell lysate same as mentioned in Step (1-3).
 5.	Wash the column with Buffer A (2ml/min) for 30-40 minutes. 
-6.	 Elute the protein of interest by passing the Elution Buffer (Buffer B) in a gradient. Collect 1-2 ml fractions and analyze them with SDS-PAGE.
+6.	Elute the protein of interest by passing the Elution Buffer (Buffer B) in a gradient. Collect 1-2 ml fractions and analyze them with SDS-PAGE.
 
 **Note:** Store the eluted fractions at 4°C. If -20°C storage is required, add glycerol to the fractions. For long-term storage, add protease inhibitors to the fractions.
 
