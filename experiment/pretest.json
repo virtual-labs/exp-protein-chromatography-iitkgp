@@ -2,37 +2,122 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Chromatography is defined as a biophysical technique employed for the separation, identification and purification of the individual components of a mixture, based on their differential properties, for qualitative and quantitative analysis. It can be used to separate a mixture of _______.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Gases",
+        "b": "Oil and water ",
+        "c": "Different cereals",
+        "d": "Both a and b"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+   
+    {
+      "question": "2. The chromatographic technique that exploits the property of highly specific binding between an immobilized ligand and a only single component of the analyte mixture, is termed as _______.",
+      "answers": {
+        "a": "Affinity Chromatography",
+        "b": "SEC",
+        "c": "TLC",
+        "d": "Ion-Exchange Chromatography"
       },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. Affinity chromatography can be used to purify biomolecules using corresponding resins to which they specifically bind. Find the correct match of the resin and its eluate",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Carbohydrate resin – Biotinylated biomolecules ",
+        "b": "Glutathione resin – protein with hexa-histidine tag",
+        "c": "Ni NTA resin - protein with GST tag",
+        "d": "Protein A/protein G resin – Immunoglobulin"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Affinity chromatography is used to isolate biomolecules bound to one another and study their interaction using a ligand that specifically binds to one of the biomolecules in the complex. This technique is termed as _______.",
+      "answers": {
+        "a": "SEC",
+        "b": "IMAC",
+        "c": "Pull-down assay",
+        "d": "None of the above"
       },
+     
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. To elute the desired analyte, it needs to be freed from the analyte-ligand complex. This is achieved by adding in a competitor that binds more strongly with the ligand. This method is called specific elution. Non-specific elution is achieved using _______.",
+      "answers": {
+        "a": "pH change",
+        "b": "Solvent change ",
+        "c": "Reversibly denaturing the analyte protein",
+        "d": "All of the above"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. In immobilized metal affinity chromatography (IMAC), the commonly used metal is _______.",
+      "answers": {
+        "a": "Ni",
+        "b": "Mg",
+        "c": "Co",
+        "d": "Both a and b"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. Ni-NTA chromatography is a common type of IMAC commonly used in FPLC for the purification of proteins with a recombinant hexahistidine tag. What is the principle behind the affinity?",
+      "answers": {
+        "a": "NTA is a tetradentate ligand that coordinates Ni2+ to which imidazole group of His binds",
+        "b": "NTA is a hexadentate ligand that coordinates Ni2+ to which imidazole group of His binds",
+        "c": "NTA has a strong affinity for imidazole group of His",
+        "d": "NTA helps to bind His strongly to the Sepharose"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. FPLC is a type of affinity chromatographic technique that uses Ni-NTA IMAC for the purification of proteins. FPLC stands for _______.",
+      "answers": {
+        "a": "Fluid Pressure liquid chromatography",
+        "b": "Fast Pressure liquid chromatography",
+        "c": "Fast Protein liquid chromatography",
+        "d": "Both b and c"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. In FPLC, the flow rate of the liquid mobile phase through the column can be controlled",
+      "answers": {
+        "a": "True",
+        "b": "False"
+       
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. FPLC finds application in _______.",
+      "answers": {
+        "a": "Purification and analysis of proteins",
+        "b": "RNA isolation and plasmid DNA purification",
+        "c": "Purification of synthetic oligonucleotides",
+        "d": "All of the above"
+      },
+     
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
