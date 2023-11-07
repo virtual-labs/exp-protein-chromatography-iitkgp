@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The full form of Ni-NTA is",
+      "question": "1. The full form of Ni-NTA is",
       "answers": {
         "a": "Nickel-nitrilotrioacetic acid (NTA)",
         "b": "Nickel-nitrilotriacetic acid (NTA)",
@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Ni-NTA Agarose is used for the purification of recombinant proteins expressed in",
+      "question": "2. Ni-NTA Agarose is used for the purification of recombinant proteins expressed in",
       "answers": {
         "a": "Bacteria",
         "b": "Insect",
@@ -26,7 +26,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which amino acid in the recombinant protein binds to Nickel, in Ni-NTA affinity chromatography",
+      "question": "3. Which amino acid in the recombinant protein binds to Nickel, in Ni-NTA affinity chromatography",
       "answers": {
         "a": "Histidine",
         "b": "Tryptophan",
