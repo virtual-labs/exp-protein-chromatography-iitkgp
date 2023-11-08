@@ -5,6 +5,7 @@ Developer: Prakriti Dhang */
 
 /**  Step 5 Data Acquistion*/
 document.getElementById('step7').addEventListener('click', function () {
+	document.getElementById('chartContainer').style.height= 400 +"px";
 	window.scrollBy(0, 2500);
 	document.getElementById("actionid").innerHTML="";
 	document.getElementById("step8").disabled = false;

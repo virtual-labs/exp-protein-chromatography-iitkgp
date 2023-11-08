@@ -208,7 +208,7 @@ function bufferb() {
       imgunbb.style.left = 40 + '%';
       imgunbb.style.top = 5 + '%';
       imgunbb.style.transform = "rotate(0deg)";
-      document.getElementById("bufferb").style.display = "none";
+      
       document.getElementById("bufferb").removeAttribute("onclick", "dropbufferb()");
       document.getElementById("Check61").disabled=false;
       document.getElementById("Check62").disabled=false;
@@ -258,6 +258,7 @@ function dropbufferb() {
 
 var imgobjpro10 = null;
 function elu10() {
+  document.getElementById("bufferb").style.display = "none";
   document.getElementById("actionid").innerHTML = "Elution of 10 %.";
   document.getElementById("prointelu").style.display = "block";
   window.scrollBy(0, 900);

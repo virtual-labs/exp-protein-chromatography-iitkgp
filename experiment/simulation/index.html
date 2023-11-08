@@ -33,7 +33,7 @@ Developer: Prakriti Dhang -->
 							<li>First, click on "Buffer A" checkbox to display the buffer bottle. Then click on Buffer A bottle to load it in the column and uncheck the "Buffer A" checkbox to place it back.
 								 Accordingly click on the "Removal of unbound proteins" boxes to remove unbounded proteins.  
 								To see the chemical group, click on "Binding of proteins of interest with Ni-NTA beads" checkbox. </li>
-							<li>Click on "Buffer B" checkboxes to display the buffer bottle. Click on the Buffer B bottle to load buffer in the column and uncheck the "Buffer B" checkbox to place it back. Next, click on the
+							<li>Click on "Buffer B" checkboxes to display the buffer bottle. Now, click on the Buffer B bottle to load buffer in the column and uncheck the "Buffer B" checkbox to place it back. Next, click on the
 								checkboxes from "10%" to "100%" accordingly. </li>
 
 							<li>Click on the "Data Acquisition" button to plot the sample graph</li>
@@ -48,8 +48,7 @@ Developer: Prakriti Dhang -->
 					<div class="card-header fs-5 fw-bold">Action</div>
 					<div class="card-body">
 						<p class="fs-5" id="actionid"></p>
-						<button id="stepgel" type="button" class="btn btn-success border border-1  rounded-3 fs-6 m-1"
-							style="cursor: pointer; float:right; display: none;" onclick="showgel()">Show</button>
+						
 					</div>
 				</div>
 			</div>
@@ -214,16 +213,17 @@ Developer: Prakriti Dhang -->
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
 										style="cursor: pointer; " disabled> Data
 										Acquisition</button> <!--onclick="dataacq()"-->
-
+										
 								</td>
 							</tr>
 							<tr>
 								<td class="fs-6">Step 6</td>
 								<td>
 									<button id="step8" type="button"
-										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
+										class="btn btn-primary border border-1  rounded-3 fs-6 "
 										style="cursor: pointer; " onclick="sdspage()" disabled> SDS-PAGE Analysis</button>
-
+										<button id="stepgel" type="button" class="btn btn-success border border-1  rounded-3 fs-6 "
+										style="cursor: pointer;  display: none;" onclick="showgel()">Show</button>
 								</td>
 							</tr>
 						</table>
@@ -236,7 +236,7 @@ Developer: Prakriti Dhang -->
 		<div class="row ">
 			<div class="col-md-6">
 				<div class="card card-body border border-1">
-					<p>Step 1</p>
+					<p class="fs-5">Step 1</p>
 					<div class="img-container">
 						<img src="./images/emptycolumn.png" id="emptycolumn" class="img-fluid">
 						<img src="./images/nibeads.png" id="nibeads" class="img-fluid">
@@ -249,7 +249,7 @@ Developer: Prakriti Dhang -->
 
 			<div class="col-md-6">
 				<div class="card card-body border border-1">
-					<p>Step 2</p>
+					<p class="fs-5">Step 2</p>
 					<div class="img-container">
 
 					</div><img src="./images/cell_lysate.png" id="celllysate" class="img-fluid" alt="celllysate">
@@ -265,7 +265,7 @@ Developer: Prakriti Dhang -->
 		<div class="row">
 			<div class="col-md-6">
 				<div class="card card-body border border-1">
-					<p>Step 3</p>
+					<p class="fs-5">Step 3</p>
 					<div class="img-container">
 
 						<img src="./images/tubecapturepro.png" id="wpc" class="img-fluid" alt="wpc">
@@ -283,7 +283,7 @@ Developer: Prakriti Dhang -->
 
 			<div class="col-md-6">
 				<div class="card card-body border border-1">
-					<p>Step 4</p>
+					<p class="fs-5">Step 4</p>
 
 					<div class="img-container">
 						<img src="./images/10_pro_tube.png" id="protube1" class="img-fluid" alt="protube10">
@@ -324,15 +324,15 @@ Developer: Prakriti Dhang -->
 
 
 				<div class="card card-body border border-1">
-					<p>Step 5</p>
+					<p class="fs-5">Step 5</p>
 
-					<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+					<div id="chartContainer" style=" width: 100%;"></div>
 				</div>
 			</div>
 
 			<div class="col-md-6">
 				<div class="card card-body border border-1">
-					<p>Step 6</p>
+					<p class="fs-5">Step 6</p>
 					<div class="img-container">
 						<img src="./images/SDS_PAGE.png" id="optgel" class="img-fluid" alt="outputgel">
 					</div>
