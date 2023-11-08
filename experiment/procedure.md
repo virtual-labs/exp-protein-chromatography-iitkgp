@@ -1,6 +1,6 @@
 ## Procedure
 
-In order to perform protein purification by affinity chromatography, the following steps must be followed:-
+In order to perform protein purification by affinity chromatography, the following steps must be followed while performing in the lab:-
 
 
 **Preparing Ni-NTA Column (Equilibriation Step)**
@@ -33,6 +33,10 @@ Using the native buffers, columns and cell lysate, follow the procedure below to
 4.	Load the remaining cell lysate same as mentioned in Step (1-3).
 5.	Wash the column with Buffer A (2ml/min) for 30-40 minutes. 
 6.	Elute the protein of interest by passing the Elution Buffer (Buffer B) in a gradient. Collect 1-2 ml fractions and analyze them with SDS-PAGE.
+
+<div align="center">
+<img src="./images/Slide4.PNG" width="50%">
+</div>
 
 **Note:** Store the eluted fractions at 4°C. If -20°C storage is required, add glycerol to the fractions. For long-term storage, add protease inhibitors to the fractions.
 

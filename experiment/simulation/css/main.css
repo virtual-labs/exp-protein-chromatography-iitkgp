@@ -145,31 +145,31 @@ Developer: Prakriti Dhang */
     position: relative;
     width: 25%;
     top: 1%;
-    left: 5%;
+    left: -5%;
     display:none;
 }
 
 #pro1{
     position: absolute;
-    width: 28.2%;
+    width: 28%;
     top: 62.7%;
-    left: 2.7%;
+    left: -7%;
     display:none;
 }
 #protube2{
     position: absolute;
     width: 26%;
     top: 4%;
-    left: 5.1%;
+    left: 15%;
     display:none;
 }
 
 
 #pro2{
     position: absolute;
-    width: 30%;
-    top: 61%;
-    left: 2.5%;
+    width: 28.1%;
+    top: 62%;
+    left: 13.6%;
     display:none;
 }
 
@@ -178,15 +178,15 @@ Developer: Prakriti Dhang */
     position: absolute;
     width: 25.2%;
     top: 5%;
-    left: 5.4%;
+    left: 36%;
     display:none;
 }
 
 #pro4{
     position: absolute;
-    width: 27.3%;
-    top: 62.8%;
-    left: 3.5%;
+    width: 25.9%;
+    top: 63.7%;
+    left: 34.9%;
     display:none;
 }
 
@@ -195,15 +195,15 @@ Developer: Prakriti Dhang */
     position: absolute;
     width: 25%;
     top: 3%;
-    left: 5.2%;
+    left:56.5%;
     display:none;
 }
 
 #pro8{
     position: absolute;
-    width: 28%;
-    top: 61%;
-    left: 2.3%;
+    width: 26%;
+    top: 62%;
+    left: 54.5%;
     display:none;
 }
 
@@ -212,23 +212,23 @@ Developer: Prakriti Dhang */
     position: absolute;
     width: 25%;
     top: 6%;
-    left: 5.3%;
+    left: 77%;
     display:none;
 }
 
 #pro100{
     position: absolute;
-    width: 32%;
+    width: 31%;
     top: 63.8%;
-    left: 1.4%;
+    left: 73.8%;
     display:none;
 }
 
 #prointelu{
     position: absolute;
-    width: 5%;
+    width: 4%;
     top: 53%;  /*53- 80 */
-    left: 20%;
+    left: 8%; /* 8 -  28 - 49 - 69 - 90  */
     display:none;
 }
 
@@ -236,7 +236,7 @@ Developer: Prakriti Dhang */
     position: absolute;
     width: 9%;
     top: 5%;
-    left: 50%;
+    left: 50%; /* 50 - -10 -25 */
     cursor: pointer;
     display: none;
  }
