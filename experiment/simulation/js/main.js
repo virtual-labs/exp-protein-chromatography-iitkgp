@@ -141,7 +141,7 @@ function dropbuffera() {
       if (currentleft == 25) {
           clearInterval(imgobjbufferAl);
           imgunb.style.transform = "rotate(-60deg)";
-         
+          document.getElementById("buffera").removeAttribute("onclick", "dropbuffera()");
           // imgobjbufferAorg=setInterval(framebufferaorg,50);
       }
       else {
@@ -195,7 +195,7 @@ function bindingpro() {
 /*  Step 4 Elution starts*/
 var imgunbb;
 function bufferb() {
-  window.scrollBy(0, 900);
+  window.scrollBy(0, 700);
   if (document.getElementById("Checkbb").checked) {
       document.getElementById("bufferb").style.display = "block";
       document.getElementById("bufferb").setAttribute("onclick", "dropbufferb()");
@@ -204,10 +204,11 @@ function bufferb() {
       document.getElementById("protube1").style.display = "block";
   }
   else {
-
+    window.scrollBy(0, 0 );
       imgunbb.style.left = 40 + '%';
       imgunbb.style.top = 5 + '%';
       imgunbb.style.transform = "rotate(0deg)";
+      document.getElementById("bufferb").style.display = "none";
       document.getElementById("bufferb").removeAttribute("onclick", "dropbufferb()");
       document.getElementById("Check61").disabled=false;
       document.getElementById("Check62").disabled=false;
@@ -240,10 +241,10 @@ function dropbufferb() {
       }
   }
   function framebufferbleft() {
-      if (currentleftb == 25) {
+      if (currentleftb == 15) {
           clearInterval(imgobjbufferbl);
           imgunbb.style.transform = "rotate(-60deg)";
-        
+          document.getElementById("bufferb").removeAttribute("onclick", "dropbufferb()");
           // imgobjbufferAorg=setInterval(framebufferaorg,50);
       }
       else {
@@ -267,7 +268,7 @@ function elu10() {
   function frameunpro() {
       if (currenttop == 80) {
           document.getElementById("pro1").style.display = "block";
-          document.getElementById("Check61").checked = false;
+          document.getElementById("Check61").checked = true;
           document.getElementById("prointelu").style.display = "none";
           clearInterval(imgobjpro10);
           
@@ -284,8 +285,9 @@ var imgobjpro20 = null;
 function elu20() {
   window.scrollBy(0, 800);
   document.getElementById("actionid").innerHTML = "Elution of 20 %.";
-  document.getElementById("pro1").style.display = "none";
+  document.getElementById("pro1").style.display = "block";
   document.getElementById("prointelu").style.display = "block";
+  document.getElementById("prointelu").style.left = 28 + '%';
   document.getElementById("protube2").style.display = "block";
   var currenttop = 53;
   clearInterval(imgobjpro20);
@@ -294,7 +296,7 @@ function elu20() {
   function frameunpro() {
       if (currenttop == 80) {
           document.getElementById("pro2").style.display = "block";
-          document.getElementById("Check62").checked = false;
+          document.getElementById("Check62").checked = true;
           document.getElementById("prointelu").style.display = "none";
           clearInterval(imgobjpro20);
          
@@ -311,10 +313,11 @@ var imgobjpro40 = null;
 function elu40() {
   window.scrollBy(0, 900);
   document.getElementById("actionid").innerHTML = "Elution of 40 %.";
-  document.getElementById("pro2").style.display = "none";
+  document.getElementById("pro2").style.display = "block";
   document.getElementById("protube4").style.display = "block";
-  document.getElementById("protube2").style.display = "none";
+  document.getElementById("protube2").style.display = "block";
   document.getElementById("prointelu").style.display = "block";
+  document.getElementById("prointelu").style.left = 49 + '%';
   var currenttop = 53;
   clearInterval(imgobjpro40);
   imgobjpro40 = setInterval(frameunpro, 60);
@@ -322,7 +325,7 @@ function elu40() {
   function frameunpro() {
       if (currenttop == 80) {
           document.getElementById("pro4").style.display = "block";
-          document.getElementById("Check63").checked = false;
+          document.getElementById("Check63").checked = true;
           document.getElementById("prointelu").style.display = "none";
           clearInterval(imgobjpro40);
         
@@ -339,10 +342,11 @@ var imgobjpro80 = null;
 function elu80() {
   window.scrollBy(0, 900);
   document.getElementById("actionid").innerHTML = "Elution of 80 %.";
-  document.getElementById("pro4").style.display = "none";
+  document.getElementById("pro4").style.display = "block";
   document.getElementById("protube8").style.display = "block";
-  document.getElementById("protube4").style.display = "none";
+  document.getElementById("protube4").style.display = "block";
   document.getElementById("prointelu").style.display = "block";
+  document.getElementById("prointelu").style.left = 69 + '%';
   var currenttop = 53;
   clearInterval(imgobjpro80);
   imgobjpro80 = setInterval(frameunpro, 60);
@@ -350,7 +354,7 @@ function elu80() {
   function frameunpro() {
       if (currenttop == 80) {
           document.getElementById("pro8").style.display = "block";
-          document.getElementById("Check64").checked = false;
+          document.getElementById("Check64").checked = true;
           document.getElementById("prointelu").style.display = "none";
           clearInterval(imgobjpro80);
        
@@ -366,10 +370,11 @@ var imgobjpro100 = null;
 function elu100() {
   window.scrollBy(0, 900);
   document.getElementById("actionid").innerHTML = "Elution of 100 %.";
-  document.getElementById("pro8").style.display = "none";
+  document.getElementById("pro8").style.display = "block";
   document.getElementById("protube100").style.display = "block";
-  document.getElementById("protube8").style.display = "none";
+  document.getElementById("protube8").style.display = "block";
   document.getElementById("prointelu").style.display = "block";
+  document.getElementById("prointelu").style.left = 90 + '%';
   var currenttop = 53;
   clearInterval(imgobjpro100);
   imgobjpro100 = setInterval(frameunpro, 60);
@@ -377,7 +382,7 @@ function elu100() {
   function frameunpro() {
       if (currenttop == 80) {
           document.getElementById("pro100").style.display = "block";
-          document.getElementById("Check65").checked = false;
+          document.getElementById("Check65").checked = true;
           document.getElementById("prointelu").style.display = "none";
           clearInterval(imgobjpro100);
       
