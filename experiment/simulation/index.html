@@ -30,11 +30,10 @@ Developer: Prakriti Dhang -->
 							<li> Click on "Ni-Nta Column" checkbox. Next click on "Equilibration" checkbox. To see the chemical group click on the blue beads.</li>
 							<li>Now, click on "Cell lysate/ Protein solution" checkbox and on the falcon. Click "Protein of Interest"
 								button to see the chemical group. Then click on "Sample Loading" button to load the proteins in the tube.</li>
-							<li>First, click on "Buffer A" checkbox to display the buffer bottle. Then click on Buffer A bottle to load it in the column and uncheck the "Buffer A" checkbox to place it back.
-								 Accordingly click on the "Removal of unbound proteins" boxes to remove unbounded proteins.  
-								To see the chemical group, click on "Binding of proteins of interest with Ni-NTA beads" checkbox. </li>
-							<li>Click on "Buffer B" checkboxes to display the buffer bottle. Now, click on the Buffer B bottle to load buffer in the column and uncheck the "Buffer B" checkbox to place it back. Next, click on the
-								checkboxes from "10%" to "100%" accordingly. </li>
+							<li>First, click on "Washing" checkbox then click on "Buffer A" checkbox to display the buffer bottle. Then click on Buffer A bottle to load it in the column.
+								 Now click on the "Removal of unbound proteins" boxes to remove unbounded proteins. To check the interaction between protein of interest with Ni-NTA beads, click on "Binding of proteins of interest with Ni-NTA beads" checkbox. </li>
+							<li>Click on "10 % of Buffer B" checkboxes to display the buffer bottle. Now, click on the Buffer B bottle to load buffer in the column. Next, click on the
+								checkboxes from "20%" to "100% of Buffer B" accordingly. </li>
 
 							<li>Click on the "Data Acquisition" button to plot the sample graph</li>
 							<li>Click on the "SDS-PAGE Analysis" button and on "Show" button to view the gel.
@@ -162,46 +161,46 @@ Developer: Prakriti Dhang -->
 							<tr>
 								<td class="fs-6">Step 4</td>
 								<td>
-									<div class="form-check form-check-inline">
+									<!--div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Checkbb"
 											onclick="bufferb()" disabled />
 										<label class="custom-check-label" for="Checkbb">
 											Buffer B
 										</label>
-									</div>
+									</div-->
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check61"
-											onclick="elu10()" disabled />
+											onclick="bufferb()" disabled />
 										<label class="custom-check-label" for="Check61">
-											10%
+											10% Buffer B
 										</label>
 									</div>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check62"
 											onclick="elu20()" disabled/>
 										<label class="custom-check-label" for="Check62">
-											20%
+											20% Buffer B
 										</label>
 									</div>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check63"
 											onclick="elu40()" disabled/>
 										<label class="custom-check-label" for="Check63">
-											40%
+											40% Buffer B
 										</label>
 									</div>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check64"
 											onclick="elu80()" disabled/>
 										<label class="custom-check-label" for="Check64">
-											80%
+											80% Buffer B
 										</label>
 									</div>
 									<div class="form-check form-check-inline">
 										<input class="custom-check-input" type="checkbox" value="" id="Check65"
 											onclick="elu100()" disabled/>
 										<label class="custom-check-label" for="Check65">
-											100%
+											100% Buffer B
 										</label>
 									</div>
 								</td>
@@ -211,7 +210,7 @@ Developer: Prakriti Dhang -->
 								<td>
 									<button id="step7" type="button"
 										class="btn btn-primary border border-1  rounded-3 fs-6 m-1"
-										style="cursor: pointer; " disabled> Data
+										style="cursor: pointer; " > Data
 										Acquisition</button> <!--onclick="dataacq()"-->
 										
 								</td>

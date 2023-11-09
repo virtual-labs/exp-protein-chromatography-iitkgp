@@ -7,7 +7,7 @@ Developer: Prakriti Dhang */
 document.getElementById('step7').addEventListener('click', function () {
 	document.getElementById('chartContainer').style.height= 400 +"px";
 	window.scrollBy(0, 2500);
-	document.getElementById("actionid").innerHTML="";
+	document.getElementById("actionid").innerHTML="Elution profile";
 	document.getElementById("step8").disabled = false;
 	// Specify the URL of your Excel file
 	const excelUrl = './plotdata/ni-nta_peak.xlsx';

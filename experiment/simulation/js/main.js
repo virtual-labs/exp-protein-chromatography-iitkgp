@@ -23,6 +23,8 @@ function showcolumn() {
 
 var imgobjntadots = null;
 function showeq() {
+  window.scrollBy(0, 500);
+  document.getElementById("actionid").innerHTML = "Equilibration.";
   document.getElementById("nibeads").style.display = "block";
   var currenttop = -12;
 
@@ -53,6 +55,8 @@ function showchemicalequation() {
 
 /** Step 2 */
 function cellysate() {
+  window.scrollBy(0, 500);
+  document.getElementById("actionid").innerHTML = "Cell lysate/Protein solution.";
   document.getElementById("celllysate").style.display = "block";
   document.getElementById("celllysate").setAttribute("onclick", "showdiffpro()");
 }
@@ -71,6 +75,8 @@ function prointerest() {
 
 var imgobjunbpro = null;
 function sampleload() {
+  window.scrollBy(0, 600);
+  document.getElementById("actionid").innerHTML = "Sample Loading.";
   document.getElementById("pbluecol").style.display = "block";
   document.getElementById("unprostp2").style.display = "block";
   var currenttop = -18;
@@ -96,6 +102,7 @@ function sampleload() {
 
 /** Step 3*/
 function washing() {
+  document.getElementById("actionid").innerHTML = "Washing/Removal of contaminant proteins.";
   document.getElementById("wpc").style.display = "block";
   document.getElementById("Check33").disabled=false;
   window.scrollBy(0, 500);
@@ -107,19 +114,19 @@ var imgobjbufferAl = null;
 var imgobjbufferAorg = null;
 var imgunb;
 function buffera() {
-  if (document.getElementById("Check33").checked) {
+ // if (document.getElementById("Check33").checked) {
       document.getElementById("buffera").style.display = "block";
       document.getElementById("buffera").setAttribute("onclick", "dropbuffera()");
       document.getElementById("actionid").innerHTML = "Buffer A is added.";
       window.scrollBy(0, 500);
-  }
+ /* }
   else {
       imgunb.style.left = 40 + '%';
       imgunb.style.top = 5 + '%';
       imgunb.style.transform = "rotate(0deg)";
       document.getElementById("buffera").removeAttribute("onclick", "dropbuffera()");
       document.getElementById("Check34").disabled=false;
-  }
+  }*/
 }
 function dropbuffera() {
   var currenttop = 5;
@@ -142,6 +149,8 @@ function dropbuffera() {
           clearInterval(imgobjbufferAl);
           imgunb.style.transform = "rotate(-60deg)";
           document.getElementById("buffera").removeAttribute("onclick", "dropbuffera()");
+          document.getElementById("Check34").disabled=false;
+          document.getElementById("Check33").disabled=true;
           // imgobjbufferAorg=setInterval(framebufferaorg,50);
       }
       else {
@@ -159,10 +168,10 @@ function dropbuffera() {
 
 var imgobjunpro = null;
 function removeunpro() {
-  window.scrollBy(0, 700);
-  imgunb.style.left = 40 + '%';
-  imgunb.style.top = 5 + '%';
-  imgunb.style.transform = "rotate(0deg)";
+  window.scrollBy(0, 900);
+//  imgunb.style.left = 40 + '%';
+ // imgunb.style.top = 5 + '%';
+ // imgunb.style.transform = "rotate(0deg)";
   document.getElementById("unpro").style.display = "block";
 
   var currenttop = 51;
@@ -188,22 +197,27 @@ function removeunpro() {
 
 function bindingpro() {
   document.getElementById("proni").style.display = "block";
-  document.getElementById("Checkbb").disabled=false;
-  window.scrollBy(0, 600);
+  document.getElementById("Check61").disabled=false;
+  window.scrollBy(0, 700);
 }
 
 /*  Step 4 Elution starts*/
 var imgunbb;
 function bufferb() {
   window.scrollBy(0, 700);
-  if (document.getElementById("Checkbb").checked) {
+  //if (document.getElementById("Checkbb").checked) {
       document.getElementById("bufferb").style.display = "block";
       document.getElementById("bufferb").setAttribute("onclick", "dropbufferb()");
       imgunbb = document.getElementById("bufferb");
       document.getElementById("actionid").innerHTML = "Buffer B is added.";
       document.getElementById("protube1").style.display = "block";
-  }
-  else {
+      document.getElementById("Check61").disabled=false;
+      document.getElementById("Check62").disabled=false;
+      document.getElementById("Check63").disabled=false;
+      document.getElementById("Check64").disabled=false;
+      document.getElementById("Check65").disabled=false;
+ // }
+  /*else {
     window.scrollBy(0, 0 );
       imgunbb.style.left = 40 + '%';
       imgunbb.style.top = 5 + '%';
@@ -216,7 +230,7 @@ function bufferb() {
       document.getElementById("Check64").disabled=false;
       document.getElementById("Check65").disabled=false;
 
-  }
+  }*/
 
 }
 
@@ -245,6 +259,7 @@ function dropbufferb() {
           clearInterval(imgobjbufferbl);
           imgunbb.style.transform = "rotate(-60deg)";
           document.getElementById("bufferb").removeAttribute("onclick", "dropbufferb()");
+          elu10();
           // imgobjbufferAorg=setInterval(framebufferaorg,50);
       }
       else {
@@ -258,8 +273,8 @@ function dropbufferb() {
 
 var imgobjpro10 = null;
 function elu10() {
-  document.getElementById("bufferb").style.display = "none";
-  document.getElementById("actionid").innerHTML = "Elution of 10 %.";
+  
+  document.getElementById("actionid").innerHTML = "Elution- 6 His taq protein.";
   document.getElementById("prointelu").style.display = "block";
   window.scrollBy(0, 900);
   var currenttop = 53;
@@ -284,7 +299,8 @@ function elu10() {
 
 var imgobjpro20 = null;
 function elu20() {
-  window.scrollBy(0, 800);
+  document.getElementById("bufferb").style.left= 34 + '%';
+  window.scrollBy(0, 900);
   document.getElementById("actionid").innerHTML = "Elution of 20 %.";
   document.getElementById("pro1").style.display = "block";
   document.getElementById("prointelu").style.display = "block";
@@ -313,6 +329,7 @@ function elu20() {
 var imgobjpro40 = null;
 function elu40() {
   window.scrollBy(0, 900);
+  document.getElementById("bufferb").style.left= 54 + '%';
   document.getElementById("actionid").innerHTML = "Elution of 40 %.";
   document.getElementById("pro2").style.display = "block";
   document.getElementById("protube4").style.display = "block";
@@ -342,6 +359,7 @@ function elu40() {
 var imgobjpro80 = null;
 function elu80() {
   window.scrollBy(0, 900);
+  document.getElementById("bufferb").style.left= 74 + '%';
   document.getElementById("actionid").innerHTML = "Elution of 80 %.";
   document.getElementById("pro4").style.display = "block";
   document.getElementById("protube8").style.display = "block";
@@ -370,6 +388,7 @@ function elu80() {
 var imgobjpro100 = null;
 function elu100() {
   window.scrollBy(0, 900);
+  document.getElementById("bufferb").style.left= 94 + '%';
   document.getElementById("actionid").innerHTML = "Elution of 100 %.";
   document.getElementById("pro8").style.display = "block";
   document.getElementById("protube100").style.display = "block";
@@ -405,6 +424,7 @@ function elu100() {
 /** Step6 */
 
 function sdspage() {
+  document.getElementById("actionid").innerHTML = "Analysis aluted fractions on SDS-PAGE.";
   document.getElementById("stepgel").style.display = "block";
 }
 
