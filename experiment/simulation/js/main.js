@@ -17,6 +17,7 @@ function restartexp() {
 /** Step 1 */
 
 function showcolumn() {
+  window.scrollBy(0, 500);
   document.getElementById("emptycolumn").style.display = "block";
   document.getElementById("Check2").disabled=false;
 }
@@ -68,6 +69,7 @@ function showdiffpro() {
 
 
 function prointerest() {
+  window.scrollBy(0, 500);
   document.getElementById("proint").style.display = "block";
   document.getElementById("Check22").disabled=false;
 }
@@ -84,7 +86,7 @@ function sampleload() {
   imgobjunbpro = setInterval(frameunb, 30);
   var imgunb = document.getElementById("unprostp2");
   function frameunb() {
-      if (currenttop == 50) {
+      if (currenttop == 48) {
           document.getElementById("withpcol").style.display = "block";
           document.getElementById("Check32").disabled=false;
 
@@ -105,7 +107,7 @@ function washing() {
   document.getElementById("actionid").innerHTML = "Washing/Removal of contaminant proteins.";
   document.getElementById("wpc").style.display = "block";
   document.getElementById("Check33").disabled=false;
-  window.scrollBy(0, 500);
+  window.scrollBy(0, 700);
 }
 
 
@@ -118,7 +120,7 @@ function buffera() {
       document.getElementById("buffera").style.display = "block";
       document.getElementById("buffera").setAttribute("onclick", "dropbuffera()");
       document.getElementById("actionid").innerHTML = "Buffer A is added.";
-      window.scrollBy(0, 500);
+      window.scrollBy(0, 700);
  /* }
   else {
       imgunb.style.left = 40 + '%';
