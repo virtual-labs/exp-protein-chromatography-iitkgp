@@ -1,6 +1,6 @@
 ## Procedure
 
-In order to perform protein purification by affinity chromatography, the following steps must be followed while performing in the lab:-
+In order to perform protein purification by affinity chromatography, the following steps must be followed:-
 
 
 **Preparing Ni-NTA Column (Equilibriation Step)**
