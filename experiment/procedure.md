@@ -13,6 +13,10 @@ When preparing a column as described below, make sure that the snap-off cap at t
 3.	Add 6 ml sterile, distilled water and resuspend the resin by alternately inverting and gently tapping the column.
 4.	Allow the resin to settle using gravity or centrifugation as described in Step 2, and gently aspirate the supernatant.
 5.	Add 6 ml Buffer A (buffer used for the lysis of the cells).
+<div align="center">
+<img src="./images/Slide3.PNG" width="50%">
+</div>
+
 6.	Resuspend the resin by alternately inverting and gently tapping the column.
 7.	Allow the resin to settle using gravity or centrifugation as described in Step 2, and gently aspirate the supernatant.
 8.	Repeat Steps 5 through 7.
@@ -36,6 +40,10 @@ Using the native buffers, columns and cell lysate, follow the procedure below to
 
 <div align="center">
 <img src="./images/Slide4.PNG" width="50%">
+</div>
+
+<div align="center">
+<img src="./images/abvstimegraph.PNG" width="50%">
 </div>
 
 **Note:** Store the eluted fractions at 4°C. If -20°C storage is required, add glycerol to the fractions. For long-term storage, add protease inhibitors to the fractions.

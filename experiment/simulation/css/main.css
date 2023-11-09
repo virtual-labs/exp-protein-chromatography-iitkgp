@@ -240,9 +240,10 @@ Developer: Prakriti Dhang */
     position: absolute;
     width: 9%;
     top: 5%;
-    left: 50%; /* 50 - -10 -25 */
+    left: 50%; /* 50 - -10 -25 */ /*25 - 30 - 50 - 70 - 90*/
     cursor: pointer;
-    display: none;
+    display: none; 
+    /*transform: rotate(-60deg);*/
  }
 
 #graph{
