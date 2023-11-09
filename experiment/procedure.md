@@ -43,7 +43,7 @@ Using the native buffers, columns and cell lysate, follow the procedure below to
 </div>
 
 <div align="center">
-<img src="./images/abvstimegraph.PNG" width="50%">
+<img src="./images/abvstimegraph.png" width="50%">
 </div>
 
 **Note:** Store the eluted fractions at 4°C. If -20°C storage is required, add glycerol to the fractions. For long-term storage, add protease inhibitors to the fractions.
