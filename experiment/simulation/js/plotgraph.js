@@ -71,6 +71,8 @@ document.getElementById('step7').addEventListener('click', function () {
 	xhr.send();*/
 });
 
+
+
 // Function to plot data using CanvasJS with spline
 function plotData(dataPoints) {
 	const chart = new CanvasJS.Chart("chartContainer", {
