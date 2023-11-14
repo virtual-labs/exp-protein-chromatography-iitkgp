@@ -34,7 +34,7 @@ Ni-NTA-based affinity chromatography is one of the most widely used affinity chr
 
 
 <div align="center">
-<img src="./images/Exp6Fig1.png" width="50%">
+<img src="./images/Exp6Fig1.png" class="img-fluid">
 <p> Figure 1: The principle of Ni-NTA affinity purification</p>
 </div>
 
@@ -45,12 +45,12 @@ In FPLC, the solvent velocity can be manipulated by the user through a software 
 
 
 <div align="center">
-<img src="./images/Fig2.png" width="50%">
+<img src="./images/Fig2.png" class="img-fluid">
 <p> Figure 2: Typical chromatogram obtained by affinity purification</p>
 </div>
 
 
 <div align="center">
-<img src="./images/Fig3.png" width="80%">
+<img src="./images/Fig3.png" class="img-fluid">
 <p> Figure 3: Flow path of FPLC</p>
 </div>
