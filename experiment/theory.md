@@ -32,17 +32,16 @@ The elution of the target molecule from the chromatographic column can be achiev
 
 Ni-NTA-based affinity chromatography is one of the most widely used affinity chromatography techniques to purify proteins recombinantly produced with a hexahistidine tag or naturally rich in histidine amino acids. This is a special type of affinity chromatography called **Immobilized Metal Affinity Chromatography (or IMAC)**, in which nickel is covalently coupled to agarose using the chemical compound nitrilotriacetic acid (NTA). NTA is a hexadentate ligand that coordinates Ni2+ ion and His residues in the analyte protein (natural or recombinantly synthesized with a His6 ¬tag) bind to this coordination complex **(Figure 1)**. This binding is attributed to the intrinsic property of His to bind to metals like Ni and Co. 
 
-
 <div align="center">
 <img src="./images/Exp6Fig1.png" class="img-fluid">
 <p> Figure 1: The principle of Ni-NTA affinity purification</p>
 </div>
 
+
 **FPLC exploits the Ni-NTA affinity chromatography technique to purify His6-tagged proteins**
  
 Fast Pressure Liquid Chromatography (FPLC) is used to efficiently purify natural proteins or recombination fusion proteins with a hexahistidine tag using the principle of Ni-NTA IMAC. It provides high resolution of purification, even a small quantity of highly pure (nearly 95% purity) desired protein in its native, biologically active form can be purified from a large quantity of cell lysate. FPLC can also be used to purify nucleic acids. 
 In FPLC, the solvent velocity can be manipulated by the user through a software interface to maintain the constant flow rate of the solvents. It is a type of liquid chromatography, where the mobile phase is an aqueous media. The stationary phase is composed of beads (cross-linked agarose), packed into a cylindrical column. When the solution passes through the detectors, salt concentration (by conductivity) and protein concentration (by absorbing ultraviolet light at a wavelength of 280nm) are measured. This data is represented as a chromatogram **(Figure 2)**. The instrumentation and flow path of FPLC is elucidated in **Figure 3**. 
-
 
 <div align="center">
 <img src="./images/Fig2.png" class="img-fluid">

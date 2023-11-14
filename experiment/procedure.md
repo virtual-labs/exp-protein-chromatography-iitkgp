@@ -28,16 +28,17 @@ When preparing a column as described below, make sure that the snap-off cap at t
 To store a column containing resin either manually packed or pre-packed, add 20% ethanol as a preservative and cap or parafilm the column.  Storing of column should be at 4°C.
 
 
-**Purification Under Native Conditions**
+**Purification of proteins**
 
 Using the native buffers, columns and cell lysate, follow the procedure below to purify proteins under native conditions:
 
 1.	Add 5-10 ml cell lysate in a manually prepared or pre-packed Ni-NTA purification column.
 
+
 <div align="center">
-<img src="./images/Slide2.PNG" class="im
-g-fluid">
+<img class="img-fluid" src="./images/Slide2.PNG" >
 </div>
+
 
 2.	Pass the Buffer A in the column at a speed of 2 ml/min and incubate for 5-10 minutes for proper binding of the proteins.
 
