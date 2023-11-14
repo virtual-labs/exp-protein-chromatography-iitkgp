@@ -426,7 +426,7 @@ function elu100() {
 /** Step6 */
 
 function sdspage() {
-  document.getElementById("actionid").innerHTML = "Analysis aluted fractions on SDS-PAGE.";
+  document.getElementById("actionid").innerHTML = "Analysis of eluted fractions on SDS-PAGE.";
   document.getElementById("stepgel").style.display = "block";
 }
 
