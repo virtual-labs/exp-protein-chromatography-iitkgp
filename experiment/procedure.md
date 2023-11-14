@@ -25,7 +25,7 @@ When preparing a column as described below, make sure that the snap-off cap at t
 
 **Storing Prepared Columns**
 
-To store a column containing resin either manually packed or pre-packed, add 20% ethanol as a preservative and cap or parafilm the column. Store at room temperature.
+To store a column containing resin either manually packed or pre-packed, add 20% ethanol as a preservative and cap or parafilm the column.  Storing of column should be at 4°C.
 
 
 **Purification Under Native Conditions**
@@ -35,13 +35,14 @@ Using the native buffers, columns and cell lysate, follow the procedure below to
 1.	Add 5-10 ml cell lysate in a manually prepared or pre-packed Ni-NTA purification column.
 
 <div align="center">
-<img src="./images/Slide2.PNG" width="25%">
+<img src="./images/Slide2.PNG" class="im
+g-fluid">
 </div>
 
 2.	Pass the Buffer A in the column at a speed of 2 ml/min and incubate for 5-10 minutes for proper binding of the proteins.
 
 <div align="center">
-<img src="./images/Slide3.PNG" width="25%">
+<img src="./images/Slide3.PNG" class="img-fluid">
 </div>
 
 3.	Settle the resin by gravity or low-speed centrifugation (800 × g), and carefully aspirate the supernatant in case of a manually prepared column. Save supernatant at 4°C for SDS-PAGE analysis.
@@ -50,15 +51,15 @@ Using the native buffers, columns and cell lysate, follow the procedure below to
 6.	Elute the protein of interest by passing the Elution Buffer (Buffer B) in a gradient. Collect 1-2 ml fractions and analyze them with SDS-PAGE.
 
 <div align="center">
-<img src="./images/Slide4.PNG" width="25%">
+<img src="./images/Slide4.PNG" class="img-fluid">
 </div>
 
 <div align="center">
-<img src="./images/abvstimegraph.png" width="30%">
+<img src="./images/abvstimegraph.png" class="img-fluid">
 </div>
 
 <div align="center">
-<img src="./images/Slide5.PNG" width="20%">
+<img src="./images/Slide5.PNG" class="img-fluid">
 </div>
 
 **Note:** Store the eluted fractions at 4°C. If -20°C storage is required, add glycerol to the fractions. For long-term storage, add protease inhibitors to the fractions.
