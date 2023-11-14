@@ -10,7 +10,7 @@ In order to perform protein purification by affinity chromatography, the followi
 When preparing a column as described below, make sure that the snap-off cap at the bottom of the column remains intact. To prepare a column:
 
 <div align="center">
-<img src="./images/Slide1.PNG" width="25%">
+<img src="./images/Slide1.PNG" class="img-fluid">
 </div>
 
 1.	Resuspend the Ni-NTA Agarose in its bottle by inverting and gently tapping the bottle repeatedly.
