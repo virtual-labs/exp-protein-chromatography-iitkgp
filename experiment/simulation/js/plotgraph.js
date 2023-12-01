@@ -75,7 +75,9 @@ document.getElementById('step7').addEventListener('click', function () {
 
 // Function to plot data using CanvasJS with spline
 function plotData(dataPoints) {
-	const chart = new CanvasJS.Chart("chartContainer", {
+	
+
+const chart = new CanvasJS.Chart("chartContainer", {
 		animationEnabled: true,
 		title: {
 			text: "Absorbance Vs Time"
@@ -92,22 +94,7 @@ function plotData(dataPoints) {
 
 		},
 
-		/*data: [{
-            type: "spline",
-            dataPoints: dataPoints // <-- Correct placement
-
-            // Individual data points with correct syntax
-        }, {
-            type: "spline",
-			lineColor:"white",
-            dataPoints: [
-                { x: 62.277, y: 11.246, indexLabel: "A", indexLabelFontColor: "orangered", indexLabelPlacement:"outside" },
-                { x: 73.879, y: 11.525, indexLabel: "B", indexLabelFontColor: "orangered" },
-                { x: 87.214, y: 13.799, indexLabel: "C", indexLabelFontColor: "orangered" },
-                { x: 96.015, y: 14.134, indexLabel: "D", indexLabelFontColor: "orangered" }
-            ]
-        }]
-    });*/
+		
 		data: [{
 			type: "spline",
 			
@@ -118,6 +105,24 @@ function plotData(dataPoints) {
 	});
 
 	chart.render();
+
+
+
+
+	/*var data = [{
+		x: dataPoints.map(point => point.x),
+		y: dataPoints.map(point => point.y),
+		type: 'line',
+		
+	}];
+
+	var layout = {
+		title: 'Absorbance Vs Time',
+		xaxis: { title: 'Time (min)' },
+		yaxis: { title: 'Absorbance' }
+	};
+
+	Plotly.newPlot('chartContainer', data, layout);*/
 }
 
 
