@@ -1,0 +1,34 @@
+
+/home/runner/work/exp-protein-chromatography-iitkgp/exp-protein-chromatography-iitkgp/experiment/simulation/js/main.js
+    6:10  warning  'start' is defined but never used                      no-unused-vars
+   12:10  warning  'restartexp' is defined but never used                 no-unused-vars
+   19:10  warning  'showcolumn' is defined but never used                 no-unused-vars
+   26:10  warning  'showeq' is defined but never used                     no-unused-vars
+   52:10  warning  'showchemicalequation' is defined but never used       no-unused-vars
+   58:10  warning  'cellysate' is defined but never used                  no-unused-vars
+   65:10  warning  'showdiffpro' is defined but never used                no-unused-vars
+   71:10  warning  'prointerest' is defined but never used                no-unused-vars
+   79:10  warning  'sampleload' is defined but never used                 no-unused-vars
+  106:10  warning  'washing' is defined but never used                    no-unused-vars
+  116:5   warning  'imgobjbufferAorg' is assigned a value but never used  no-unused-vars
+  118:10  warning  'buffera' is defined but never used                    no-unused-vars
+  133:10  warning  'dropbuffera' is defined but never used                no-unused-vars
+  172:10  warning  'removeunpro' is defined but never used                no-unused-vars
+  200:10  warning  'bindingpro' is defined but never used                 no-unused-vars
+  208:10  warning  'bufferb' is defined but never used                    no-unused-vars
+  241:5   warning  'imgobjbufferborg' is assigned a value but never used  no-unused-vars
+  243:10  warning  'dropbufferb' is defined but never used                no-unused-vars
+  303:10  warning  'elu20' is defined but never used                      no-unused-vars
+  332:10  warning  'elu40' is defined but never used                      no-unused-vars
+  362:10  warning  'elu80' is defined but never used                      no-unused-vars
+  391:10  warning  'elu100' is defined but never used                     no-unused-vars
+  428:10  warning  'sdspage' is defined but never used                    no-unused-vars
+  436:10  warning  'showgel' is defined but never used                    no-unused-vars
+
+/home/runner/work/exp-protein-chromatography-iitkgp/exp-protein-chromatography-iitkgp/experiment/simulation/js/plotgraph.js
+  22:22  warning  'XLSX' is not defined      no-undef
+  29:22  warning  'XLSX' is not defined      no-undef
+  80:19  warning  'CanvasJS' is not defined  no-undef
+
+✖ 27 problems (0 errors, 27 warnings)
+
