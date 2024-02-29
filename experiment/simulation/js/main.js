@@ -185,6 +185,10 @@ function removeunpro() {
           document.getElementById("tbunpro").style.display = "block";
           clearInterval(imgobjunpro);
           document.getElementById("Check35").disabled=false;
+          document.getElementById("buffera").style.top= 5+"%";
+          document.getElementById("buffera").style.left= 40+"%";
+          document.getElementById("buffera").style.transform="rotate(0deg)";
+
       }
       else {
           currenttop++;
