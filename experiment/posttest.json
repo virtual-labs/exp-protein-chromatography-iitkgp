@@ -2,36 +2,122 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. The full form of Ni-NTA is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Nickel-nitrilotrioacetic acid (NTA)",
+        "b": "Nickel-nitrilotriacetic acid (NTA)",
+        "c": "Nickel-triacetic acid (NTA)",
+        "d": "None of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Ni-NTA Agarose is used for the purification of recombinant proteins expressed in",
+      "answers": {
+        "a": "Bacteria",
+        "b": "Insect",
+        "c": "Mammalian cells",
+        "d": "All of the above"
       },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which amino acid in the recombinant protein binds to Nickel, in Ni-NTA affinity chromatography",
+      "answers": {
+        "a": "Histidine",
+        "b": "Tryptophan",
+        "c": "Alanine",
+        "d": "None of the above"
+      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "4. The Ni-NTA resins exhibit high affinity and selectivity for 6xHis-tagged recombinant proteins where 6xHis-tag can be fused to its ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "N-terminus",
+        "b": "C-terminus",
+        "c": "Both a and b",
+        "d": "None of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Why does loading/wash buffer contain a low concentration of imidazole",
+      "answers": {
+        "a": "To remove 6xHis-tag recombinant protein",
+        "b": "To elute weak binding contaminant proteins",
+        "c": "To increase the binding between Nickel and 6xHis-tag recombinant protein",
+        "d": "None of the above"
       },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Why do we add a higher concentration of imidazole in the elution buffer",
+      "answers": {
+        "a": "Because it competes with the recombinant proteins for nickel binding",
+        "b": "Because it acts as an inhibitor for recombinant proteins and nickel binding",
+        "c": "To stabilize the recombinant proteins and nickel binding",
+        "d": "None of the above"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. Nickel in Ni-NTA affinity chromatography interacts with how many histidines of a His-tag  ",
+      "answers": {
+        "a": "One ",
+        "b": "Six",
+        "c": "Four",
+        "d": "Two"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Nickel makes coordinate bond with the ……………… of histidine",
+      "answers": {
+        "a": "Side chain",
+        "b": "Amino group",
+        "c": "Carboxyl group",
+        "d": "All of the above"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Why protein does not bind to the Ni-NTA matrix in an acidic pH range",
+      "answers": {
+        "a": "Because it can cause protonation of the histidine side chains and thus prevent the histidine residues from coordinating with nickel",
+        "b": "Because it can cause deprotonation of the histidine side chains and thus prevent the histidine residues from coordinating with nickel",
+        "c": "Because protein aggregates",
+        "d": "None of the above"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. What are different methods of elution of recombinant protein from Ni-NTA column other than imidazole",
+      "answers": {
+        "a": "Low pH buffe",
+        "b": "By competition with histidine",
+        "c": "Both a and b",
+        "d": "None of the above"
+      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
