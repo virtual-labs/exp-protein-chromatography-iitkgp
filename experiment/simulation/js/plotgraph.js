@@ -80,7 +80,7 @@ function plotData(dataPoints) {
 const chart = new CanvasJS.Chart("chartContainer", {
 		animationEnabled: true,
 		title: {
-			text: "Absorbance Vs Time"
+			text: "Absorbance Vs Percentage of buffer B"
 		},
 		axisY: {
 			title: "Absorbance",
@@ -89,7 +89,7 @@ const chart = new CanvasJS.Chart("chartContainer", {
 
 		},
 		axisX: {
-			title: "Time (min)",
+			title: "Percentage of buffer B",
 			
 
 		},
