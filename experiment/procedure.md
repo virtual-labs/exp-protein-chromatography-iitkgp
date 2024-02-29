@@ -56,7 +56,7 @@ Using the native buffers, columns and cell lysate, follow the procedure below to
 </div>
 
 <div align="center">
-<img src="./images/abvstimegraph.png" class="img-fluid">
+<img src="./images/graph.png" class="img-fluid">
 </div>
 
 <div align="center">

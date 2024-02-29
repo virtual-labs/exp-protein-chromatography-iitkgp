@@ -218,10 +218,7 @@ function bufferb() {
       document.getElementById("actionid").innerHTML = "Buffer B is added.";
       document.getElementById("protube1").style.display = "block";
       document.getElementById("Check61").disabled=false;
-      document.getElementById("Check62").disabled=false;
-      document.getElementById("Check63").disabled=false;
-      document.getElementById("Check64").disabled=false;
-      document.getElementById("Check65").disabled=false;
+      
  // }
   /*else {
     window.scrollBy(0, 0 );
@@ -265,6 +262,10 @@ function dropbufferb() {
           clearInterval(imgobjbufferbl);
           imgunbb.style.transform = "rotate(-60deg)";
           document.getElementById("bufferb").removeAttribute("onclick", "dropbufferb()");
+          document.getElementById("Check62").disabled=false;
+      document.getElementById("Check63").disabled=false;
+      document.getElementById("Check64").disabled=false;
+      document.getElementById("Check65").disabled=false;
           elu10();
           // imgobjbufferAorg=setInterval(framebufferaorg,50);
       }
