@@ -31,8 +31,8 @@ Affinity chromatography is a biophysical technique that exploits the unique biol
 
 ### Contributors List
 
-SrNo | Name | Designation | Department| Institute| 
-:--|:--|:--|:--|:--|
-1 | **Prakriti Dhang** | Developer and Integration Engineer | Department of Mechanical Engineering | IIT Kharagpur |
-2 | **Aakanksha** | Research Scholar | School of Bioscience | IIT Kharagpur |
-3 | **Beas Mukherjee** | Research Scholar | School of Bioscience | IIT Kharagpur |
+SrNo | Name | Vlabs Developer or Integration Engineer| Designation | Department| Institute| 
+:--|:--|:--|:--|:--|:--|
+1 | **Prakriti Dhang** | Developer and Integration Engineer| Project Scientist | Department of Mechanical Engineering | IIT Kharagpur |
+2 | **Aakanksha** | |Research Scholar | School of Bioscience |  IIT Kharagpur |
+3 | **Beas Mukherjee** | |Research Scholar  |School of Bioscience  |IIT Kharagpur |
