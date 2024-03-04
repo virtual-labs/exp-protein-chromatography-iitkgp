@@ -5,12 +5,14 @@ Developer: Prakriti Dhang */
 
 /**  Step 5 Data Acquistion*/
 document.getElementById('step7').addEventListener('click', function () {
-	document.getElementById('chartContainer').style.height= 400 +"px";
+	document.getElementById('chart1').style.display="block";
+
+	//document.getElementById('chartContainer').style.height= 400 +"px";
 	window.scrollBy(0, 2500);
 	document.getElementById("actionid").innerHTML="Elution profile";
 	document.getElementById("step8").disabled = false;
 	// Specify the URL of your Excel file
-	const excelUrl = './plotdata/ni-nta_peak.xlsx';
+	/*const excelUrl = './plotdata/ni-nta_peak.xlsx';
 	fetch(excelUrl)
   .then(response => {
     if (!response.ok) {
@@ -36,7 +38,7 @@ document.getElementById('step7').addEventListener('click', function () {
   })
   .catch(error => {
     console.error('Error fetching the file:', error.message);
-  });
+  });*/
 
 	/*const xhr = new XMLHttpRequest();
 	xhr.open('GET', excelUrl, true);
@@ -74,7 +76,7 @@ document.getElementById('step7').addEventListener('click', function () {
 
 
 // Function to plot data using CanvasJS with spline
-function plotData(dataPoints) {
+/*function plotData(dataPoints) {
 	
 
 const chart = new CanvasJS.Chart("chartContainer", {
@@ -105,7 +107,9 @@ const chart = new CanvasJS.Chart("chartContainer", {
 	});
 
 	chart.render();
-
+	document.getElementById("showplot").addEventListener("click", function () {
+		chart.exportChart({ format: "jpg" });
+	   });
 
 
 
@@ -123,7 +127,7 @@ const chart = new CanvasJS.Chart("chartContainer", {
 	};
 
 	Plotly.newPlot('chartContainer', data, layout);*/
-}
+//}
 
 
 
