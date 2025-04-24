@@ -1,8 +1,4 @@
-## Objective
-
-Affinity chromatography is a biophysical technique that exploits the unique biological function or the chemical structure of a biomolecule such that it specifically binds to an immobilized ligand reversibly and can be separated from a mixture of several biomolecules. 
-
-## Theory
+ ## Theory
 
 Affinity chromatography is based on the principle that a stationary phase made of a matrix medium (e.g. cellulose or agarose beads) on which the ligand (may be an oligonucleotide, protein, coenzyme, etc) bound covalently, with its reactive groups exposed. As the mixture of analytes (nucleic acids, proteins, vitamins etc) passes through the chromatography column, only the analyte of interest that has highly specific binding interaction with the immobilized ligand will bind to the stationary phase, while all other biomolecules will be eluted as flow through.
 
