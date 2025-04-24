@@ -1,0 +1,283 @@
+/* Lab name: Experimental Biochemistry
+Exp name: Protein purification by affinity chromatography
+File name: main.css
+Developer: Prakriti Dhang */
+
+
+.card {
+    margin-bottom: 5px;
+}
+
+.img-container {
+    
+    display: inline-block;
+    position: relative;
+}
+
+.div-inline {
+
+    display: inline-block;
+}
+
+#emptycolumn{
+    position: relative;
+    width: 20%;
+    top: 1%;
+    left: 15%;
+  display: none;
+}
+
+#nibeads{
+    position: absolute;
+    width: 8%;
+    top: 60%; /*-12- 60*/
+    left: 22.2%;
+    display: none;
+}
+
+#packedcolumn{
+    position: absolute;
+    width: 20%;
+    top:1%;
+    left: 15.8%;
+    display: none;
+    cursor: pointer;
+ }
+
+ #chemicalgrp{
+    position: absolute;
+    width: 45%;
+    top: 1%;
+    left: 58%;
+    display: none;
+ }
+
+
+ #celllysate{
+    position: relative;
+    width: 20%;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    display: none;
+ }
+
+ #diffpro{
+    position: absolute;
+    width: 20%;
+    top: 30%;
+    left: 20%;
+    cursor: pointer;
+    display: none;
+ }
+
+ #proint{
+    position: absolute;
+    width: 30%;
+    top: 5%;
+    left: 37%;
+    display: none;
+ }
+ #pbluecol{
+    position: absolute;
+    width: 25%;
+    top: 15%;
+    left: 65%;
+    display: none;
+ }
+
+#unprostp2{
+    position: absolute;
+    width: 10%;
+    top: -18%; /*-180-50*/
+    left: 73%;
+    display: none;  
+}
+#withpcol{
+    position: absolute;
+    width: 20%;
+    top: 13%;
+    left: 68.2%;
+    display: none;
+ }
+ /* step3 */
+
+ #wpc{
+    position: relative;
+    width: 27%;
+    top: 5%;
+    left: 5%;
+    display: none;
+ }
+
+ #buffera{
+    position: absolute;
+    width: 10%;
+    top: 5%;
+    left: 40%;
+    cursor: pointer;
+    display: none;
+ }
+ #unpro{
+    position: absolute;
+    width: 9%;
+    top: 51.2%;
+    left: 15%;
+    display: none;
+ }
+ 
+#tbunpro{
+    position: absolute;
+    width: 34%;
+    top:65.2%;
+    left: 1.8%;
+    display: none;
+}
+
+
+#proni{
+    position: absolute;
+    width: 55%;
+    top: 20%;
+    left: 45%; 
+    display: none
+}
+
+
+/*Elution */
+#protube1{
+    position: relative;
+    width: 25%;
+    top: 1%;
+    left: -5%;
+    display:none;
+}
+
+#pro1{
+    position: absolute;
+    width: 28%;
+    top: 62.7%;
+    left: -7%;
+    display:none;
+}
+#protube2{
+    position: absolute;
+    width: 26%;
+    top: 4%;
+    left: 15%;
+    display:none;
+}
+
+
+#pro2{
+    position: absolute;
+    width: 28.1%;
+    top: 62%;
+    left: 13.6%;
+    display:none;
+}
+
+
+#protube4{
+    position: absolute;
+    width: 25.2%;
+    top: 5%;
+    left: 36%;
+    display:none;
+}
+
+#pro4{
+    position: absolute;
+    width: 25.9%;
+    top: 63.7%;
+    left: 34.9%;
+    display:none;
+}
+
+
+#protube8{
+    position: absolute;
+    width: 25%;
+    top: 3%;
+    left:56.5%;
+    display:none;
+}
+
+#pro8{
+    position: absolute;
+    width: 26%;
+    top: 62%;
+    left: 54.5%;
+    display:none;
+}
+
+
+#protube100{
+    position: absolute;
+    width: 25%;
+    top: 6%;
+    left: 77%;
+    display:none;
+}
+
+#pro100{
+    position: absolute;
+    width: 31%;
+    top: 63.8%;
+    left: 73.8%;
+    display:none;
+}
+
+#prointelu{
+    position: absolute;
+    width: 4%;
+    top: 53%;  /*53- 80 */
+    left: 8%; /* 8 -  28 - 49 - 69 - 90  */
+    display:none;
+}
+
+#bufferb{
+    position: absolute;
+    width: 9%;
+    top: 5%;
+    left: 50%; /* 50 - -10 -25 */ /*25 - 30 - 50 - 70 - 90*/
+    cursor: pointer;
+    display: none; 
+    /*transform: rotate(-60deg);*/
+ }
+
+#graph{
+    position: relative;
+    width: 50%;
+    top: 5%;
+    left: 5%;
+    display: none;
+   
+}
+
+
+#optgel{
+    position: relative;
+    width: 40%;
+    top: 5%;
+    left: 5%;
+    display: none;
+   
+}
+
+.btn-slate-blue-grey {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6A5ACD;
+    --bs-btn-border-color: #6A5ACD;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #483D8B;
+    --bs-btn-hover-border-color: #6A5ACD;
+    --bs-btn-focus-shadow-rgb: 106, 90, 205;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6A5ACD;
+    --bs-btn-active-border-color: #4B0082;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6A5ACD;
+    --bs-btn-disabled-border-color: #6A5ACD;
+  }
