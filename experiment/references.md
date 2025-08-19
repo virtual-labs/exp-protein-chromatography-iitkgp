@@ -1,7 +1,18 @@
 ## References 
 
--	[Affinity Chromatography](https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Instrumentation_and_Analysis/Affinity_Chromatography/02_Theory/01_Basic_Theory)
+#### Books
+- Nelson, D. L., & Cox, M. M. (2017). Lehninger principles of biochemistry (7th ed.). W.H. Freeman.
+- Berg, J. M., Tymoczko, J. L., Gatto, G. J., & Stryer, L. (2019). Biochemistry (9th ed.). W.H. Freeman.
+- Voet, D., & Voet, J. G. (2016). Biochemistry (5th ed.). Wiley
 
-- [Purification of Polyhistidine-Containing Recombinant Proteins with Ni-NTA Purification System](https://www.thermofisher.com/in/en/home/references/protocols/proteins-expression-isolation-and-analysis/protein-purification-protocol/purification-of-polyhistidine-containing-recombinant-proteins-with-ni-nta-purification-system.html)
+#### Web-based learning 
+- [NPTEL Experimental Biochemistry](https://onlinecourses.nptel.ac.in/noc22_cy32/preview) 
 
--	[Fast Protein Liquid Chromatography Systems](https://www.bio-rad.com/en-in/applications-technologies/fast-protein-liquid-chromatography?ID=MWHBF4CZF)
+
+#### Articles and reviews 
+- Rodriguez EL, et. al., Affinity chromatography: A review of trends and developments over the past 50 years (2020). DOI: 10.1016/j.jchromb.2020.122332.
+
+
+#### References for images
+- [Basic Theory - Affinity Chromatography](https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_%28Analytical_Chemistry%29/Instrumentation_and_Analysis/Affinity_Chromatography/02_Theory/01_Basic_Theory)
+- [Antigen-Antibody Complex Structure](https://www.creative-biostructure.com/antigen-antibody-complex-structure.htm)
