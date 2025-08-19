@@ -1,0 +1,4 @@
+## Applications
+- **Protein purification for therapeutic and industrial applications:** Therapeutic proteins, including monoclonal antibodies, insulin, and growth factors, are purified using affinity chromatography to get high purity and activity in drug formulations. This technique is also useful for isolating enzymes used in food processing, detergents, and biofuel production. 
+- **Affinity-based purification of recombinant proteins:** Purification of His-tagged, GST-tagged, or FLAG-tagged recombinant proteins from bacterial, yeast, or mammalian cell cultures is performed using this technique for research and therapeutic purposes.
+- **Diagnostics and immunoassay development:** It is used to isolate antibodies, antigens, and receptors for developing ELISA kits, lateral flow tests, and biosensors for disease detection (for example, COVID-19 rapid tests).
