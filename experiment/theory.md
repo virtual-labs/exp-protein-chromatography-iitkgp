@@ -28,13 +28,13 @@ Listed below are the examples of various types of biological interactions utiliz
    - Complementary base sequence
 - Hormone, vitamin 
    - Receptor
-   - Carrier protein.
+   - Carrier protein
 - Glutathione 
-   - Glutathione-S-transferase or GST fusion proteins.
-- Metal ions - 
+   - Glutathione-S-transferase or GST fusion proteins
+- Metal ions 
    - Poly (His) fusion proteins 
    - Native proteins with histidine 
-   - Cysteine on their surfaces.
+   - Cysteine on their surfaces
 
 
 #### **The molecular basis of these biological interactions**
@@ -42,7 +42,7 @@ Listed below are the examples of various types of biological interactions utiliz
 These highly specific strong binding interactions between immobilized ligand and target biomolecule are attributed to electrostatic, hydrogen bonding, hydrophobic interactions, and van der Waals' forces. 
 
 <div align="center">
-<img src="./images/affinity_theory.png" class="img-fluid">
+<img src="./images/exp6_fig1.png" class="img-fluid">
 <p> Figure 1: Molecular basis of protein-ligand interactions.</p>
 </div>
 
