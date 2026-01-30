@@ -42,7 +42,7 @@ Listed below are the examples of various types of biological interactions utiliz
 These highly specific strong binding interactions between immobilized ligand and target biomolecule are attributed to electrostatic, hydrogen bonding, hydrophobic interactions, and van der Waals' forces. 
 
 <div align="center">
-<img src="./images/affinity_theory.png" class="img-fluid">
+<img src="./images/exp6_fig1.png" class="img-fluid">
 <p> Figure 1: Molecular basis of protein-ligand interactions.</p>
 </div>
 
