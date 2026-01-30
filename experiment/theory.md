@@ -28,13 +28,13 @@ Listed below are the examples of various types of biological interactions utiliz
    - Complementary base sequence
 - Hormone, vitamin 
    - Receptor
-   - Carrier protein.
+   - Carrier protein
 - Glutathione 
-   - Glutathione-S-transferase or GST fusion proteins.
-- Metal ions - 
+   - Glutathione-S-transferase or GST fusion proteins
+- Metal ions 
    - Poly (His) fusion proteins 
    - Native proteins with histidine 
-   - Cysteine on their surfaces.
+   - Cysteine on their surfaces
 
 
 #### **The molecular basis of these biological interactions**
