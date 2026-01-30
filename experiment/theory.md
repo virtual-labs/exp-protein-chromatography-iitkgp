@@ -13,15 +13,28 @@ As the mixture of analytes (nucleic acids, proteins, vitamins etc) pass through 
 #### **The different types of biological interactions exploited in affinity chromatography**
 
 Listed below are the examples of various types of biological interactions utilized in the affinity chromatographic purification technique:
-- Antigen - antibody
-- Enzyme - substrate analogue
-- Binding protein - Ligand
-- Receptor - ligand
-- Lectin - polysaccharide, glycoprotein
-- Nucleic acid - complementary base sequence
-- Hormone, vitamin - receptor, carrier protein.
-- Glutathione - glutathione-S-transferase or GST fusion proteins.
-- Metal ions - Poly (His) fusion proteins, native proteins with histidine or cysteine on their surfaces.
+- Antigen 
+  - Antibody
+- Enzyme 
+  - Substrate analogue
+- Binding protein 
+  - Ligand
+- Receptor 
+  - Ligand
+- Lectin 
+  - Polysaccharide
+  - Glycoprotein
+- Nucleic acid 
+   - Complementary base sequence
+- Hormone, vitamin 
+   - Receptor
+   - Carrier protein.
+- Glutathione 
+   - Glutathione-S-transferase or GST fusion proteins.
+- Metal ions - 
+   - Poly (His) fusion proteins 
+   - Native proteins with histidine 
+   - Cysteine on their surfaces.
 
 
 #### **The molecular basis of these biological interactions**
